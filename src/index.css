@@ -1,13 +1,39 @@
-body {
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family:  Helvetica-Bold;
+  src: url(./assets/font/Helvetica-Bold.ttf);
+}
+@font-face {
+  font-family:  Helvetica-Regular;
+  src: url(./assets/font/Helvetica.ttf);
+}
+@font-face {
+  font-family:  Helvetica-light;
+  src: url(./assets/font/helvetica-light-587ebe5a59211.ttf);
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: Helvetica-Bold;
+}
+
+p{
+  font-family:Helvetica-light;
+}
+button,a{
+  font-family:Helvetica-Regular;
+}
+
+.navbar{
+  background: rgba(255, 255, 255, 0.02) !important;
+backdrop-filter: blur(27.5px) !important;
+margin-bottom: -100px;
 }
