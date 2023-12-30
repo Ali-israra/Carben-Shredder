@@ -23,13 +23,16 @@ export default function Footer() {
             </h2>
             <nav className="list-none mb-10">
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Home</a>
+                <Link to="/" className="text-gray-600 hover:text-gray-800">Home</Link>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">calculator</a>
+                <Link to="/about" className="text-gray-600 hover:text-gray-800">About</Link>
               </li>
               <li>
-                <a className="text-gray-600 hover:text-gray-800">Contact Us </a>
+                <Link to="/" className="text-gray-600 hover:text-gray-800">Calculator</Link>
+              </li>
+              <li>
+                <Link to="/contact" className="text-gray-600 hover:text-gray-800">Contact Us </Link>
               </li>
            
             </nav>
@@ -102,7 +105,7 @@ export default function Footer() {
       <div className="bg-gray-100">
         <div className="container mx-auto py-4 px-5 ">
           <p className="text-gray-500 text-sm text-center">
-            © 2023 Carbon Shredder — All rights reserved
+            © 2024 Carbon Shredder — All rights reserved
       
           </p>
      

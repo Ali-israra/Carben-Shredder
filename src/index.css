@@ -2,38 +2,44 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 @font-face {
-  font-family:  Helvetica-Bold;
+  font-family: Helvetica-Bold;
   src: url(./assets/font/Helvetica-Bold.ttf);
 }
 @font-face {
-  font-family:  Helvetica-Regular;
+  font-family: Helvetica-Regular;
   src: url(./assets/font/Helvetica.ttf);
 }
 @font-face {
-  font-family:  Helvetica-light;
+  font-family: Helvetica-light;
   src: url(./assets/font/helvetica-light-587ebe5a59211.ttf);
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: Helvetica-Bold;
 }
 
-p{
-  font-family:Helvetica-light;
+p {
+  font-family: Helvetica-light;
 }
-button,a{
-  font-family:Helvetica-Regular;
+button,
+a {
+  font-family: Helvetica-Regular;
 }
 
-.navbar{
+.navbar {
   background: rgba(255, 255, 255, 0.02) !important;
-backdrop-filter: blur(27.5px) !important;
-margin-bottom: -100px;
+  backdrop-filter: blur(27.5px) !important;
+  margin-bottom: -100px;
 }
