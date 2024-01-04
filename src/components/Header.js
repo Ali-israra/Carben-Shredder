@@ -8,7 +8,8 @@ export default function Header() {
   return (
     <>
       <header className="navbar">
-        <div className="container mx-auto flex  p-5 flex-col md:flex-row items-center justify-between">
+        {/* <div className="container mx-auto flex  p-5 flex-col md:flex-row items-center justify-between">
+        <div></div>
           <Link
             to="/"
             className="flex  title-font font-medium items-center justify-center text-gray-900 mb-4 md:mb-0"
@@ -22,6 +23,55 @@ export default function Header() {
           <button onClick={() => setIsOpen(!isOpen)}>
             <img src={menu} alt="" />
           </button>
+        </div> */}
+        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+            <Link
+              to="/"
+              className="mr-5 text-white text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
+            >
+              Home
+            </Link>
+            <Link
+              to="/about"
+              className="mr-5 text-white text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
+            >
+              About
+            </Link>
+            <Link
+              to="/"
+              className="mr-5 text-white text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
+            >
+              Calculator
+            </Link>
+            <Link
+              to="/contact"
+              className="mr-5 text-white text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
+            >
+              Contact Us
+            </Link>
+          
+          </nav>
+          <Link to='/' className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+        <img src={Logo} alt="" className="w-20" />
+          </Link>
+          <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+          <Link to="/calculator" className="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg items-center">
+            Get Started 
+            <svg
+                fill="none"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                className="w-4 h-4 ml-1"
+                viewBox="0 0 24 24"
+              >
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </Link>
+         
+          </div>
         </div>
       </header>
       {/* full screen menu Start */}

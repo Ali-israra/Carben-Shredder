@@ -1,6 +1,6 @@
 import React from "react";
-import img1 from "../assets/images/im1.png";
-import img2 from "../assets/images/im2.png";
+import img1 from "../assets/images/im1.jpg";
+import img2 from "../assets/images/im2.jpg";
 import icon1 from "../assets/images/icon-1.png";
 import icon2 from "../assets/images/icon-2.png";
 import icon3 from "../assets/images/icon-3.png";
@@ -22,7 +22,7 @@ export default function Goals() {
 
           <div className="flex py-10 flex-row gap-16">
             <div className="basis-full md:basis-6/12">
-              <img src={img1} alt="" />
+              <img src={img1} className="max-h-[800px] text-center m-auto" alt="" />
             </div>
             <div className="basis-full md:basis-6/12 flex gap-6 flex-col my-auto">
               <h1 className="text-3xl  capitalize leading-10">
@@ -122,7 +122,7 @@ export default function Goals() {
               </ul>
             </div>
             <div className="basis-full md:basis-6/12">
-              <img src={img2} alt="" />
+              <img src={img2} className="max-h-[800px] text-center m-auto" alt="" />
             </div>
           </div>
         </div>

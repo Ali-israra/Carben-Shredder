@@ -1,11 +1,13 @@
 import React from "react";
-import Step1 from "../assets/images/step-1.jpg";
+import Step1 from "../assets/images/2567182.png";
+import Step2 from "../assets/images/5867.png";
+import Step3 from "../assets/images/Jan-Business_report_1.png";
 
 export default function GuideSteps() {
   return (
     <>
       <div className="container mx-auto  px-4">
-        <div class="flex flex-row gap-8 py-10">
+        <div class="flex flex-row gap-16 py-20">
           <div class="basis-full md:basis-6/12 flex flex-col gap-10 justify-center">
             <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm">
               01
@@ -18,12 +20,12 @@ export default function GuideSteps() {
             </p>
           </div>
           <div class="basis-full md:basis-6/12">
-            <img src={Step1} alt="" />
+            <img src={Step1} className="text-center" alt="" />
           </div>
         </div>
-        <div class="flex flex-row gap-8 py-10">
+        <div class="flex flex-row gap-16 py-10">
           <div class="basis-full md:basis-6/12">
-            <img src={Step1} alt="" />
+            <img src={Step2} alt="" className="text-center" />
           </div>
           <div class="basis-full md:basis-6/12 flex flex-col gap-10 justify-center">
             <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm">
@@ -38,7 +40,7 @@ export default function GuideSteps() {
             </p>
           </div>
         </div>
-        <div class="flex flex-row gap-8 py-10">
+        <div class="flex flex-row gap-16 py-10">
           <div class="basis-full md:basis-6/12 flex flex-col gap-10 justify-center">
             <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm">
               03
@@ -52,7 +54,7 @@ export default function GuideSteps() {
             </p>
           </div>
           <div class="basis-full md:basis-6/12">
-            <img src={Step1} alt="" />
+            <img src={Step3} alt="" className="text-center"/>
           </div>
         </div>
       </div>

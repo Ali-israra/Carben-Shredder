@@ -41,5 +41,7 @@ a {
 .navbar {
   background: rgba(255, 255, 255, 0.02) !important;
   backdrop-filter: blur(27.5px) !important;
-  margin-bottom: -100px;
+  margin-bottom: -200px;
+  position: relative;
+  z-index: 99999999;
 }

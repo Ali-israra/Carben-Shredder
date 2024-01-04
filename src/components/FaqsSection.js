@@ -12,14 +12,14 @@ export default function FaqsSection() {
             </h1>
           </div>
           <div className="flex flex-row gap-10">
-            <div className="basis-full md:basis-7/12 py-10 flex flex-col ">
-              <Disclosure>
+            <div className="basis-full  py-10 flex flex-col max-w-4xl mx-auto">
+            <Disclosure className="border rounded-lg my-5" as="div" style={{ boxShadow: '10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)' }}>
                 {({ open }) => (
                   <>
                     <Disclosure.Button
                       className={`${
                         open ? " text-primary" : ""
-                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring   `}
+                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring items-center  `}
                     >
                       <span>What happens once I subscribe?</span>
                       <svg
@@ -48,7 +48,7 @@ export default function FaqsSection() {
                   </>
                 )}
               </Disclosure>
-              <Disclosure>
+              <Disclosure className="border rounded-lg my-5" as="div" style={{ boxShadow: '10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)' }}>
                 {({ open }) => (
                   <>
                     <Disclosure.Button
@@ -89,7 +89,7 @@ export default function FaqsSection() {
                   </>
                 )}
               </Disclosure>
-              <Disclosure>
+              <Disclosure className="border rounded-lg my-5" as="div" style={{ boxShadow: '10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)' }}>
                 {({ open }) => (
                   <>
                     <Disclosure.Button
@@ -134,7 +134,7 @@ export default function FaqsSection() {
                   </>
                 )}
               </Disclosure>
-              <Disclosure>
+              <Disclosure className="border rounded-lg my-5" as="div" style={{ boxShadow: '10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)' }}>
                 {({ open }) => (
                   <>
                     <Disclosure.Button
@@ -181,9 +181,9 @@ export default function FaqsSection() {
                 )}
               </Disclosure>
             </div>
-            <div className="basis-full md:basis-5/12">
+            {/* <div className="basis-full md:basis-5/12">
               <img src={Cal} alt="" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -22,6 +22,7 @@ export default function Partner() {
                 our bodies of water.
               </h1>
             </div>
+          
             <div className="basis-full md:basis-6/12 overflow-hidden flex justify-center relative border-l-4 h-24 border-primary">
               <Swiper
           
