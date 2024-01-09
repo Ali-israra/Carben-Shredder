@@ -5,6 +5,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 
+import Person1 from "../assets/images/person-1.jpg"
+import Person2 from "../assets/images/person-2.jpg"
+import Person3 from "../assets/images/person-3.jpg"
+
+
 export default function Testimonial() {
   return (
     <>
@@ -44,7 +49,7 @@ export default function Testimonial() {
                   <a className="inline-flex items-center">
                     <img
                       alt="testimonial"
-                      src="https://dummyimage.com/106x106"
+                      src={Person1}
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">
@@ -77,7 +82,7 @@ export default function Testimonial() {
                   <a className="inline-flex items-center">
                     <img
                       alt="testimonial"
-                      src="https://dummyimage.com/106x106"
+                      src={Person2}
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">
@@ -110,7 +115,7 @@ export default function Testimonial() {
                   <a className="inline-flex items-center">
                     <img
                       alt="testimonial"
-                      src="https://dummyimage.com/106x106"
+                      src={Person3}
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">
@@ -143,7 +148,7 @@ export default function Testimonial() {
                   <a className="inline-flex items-center">
                     <img
                       alt="testimonial"
-                      src="https://dummyimage.com/106x106"
+                      src={Person2}
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">
@@ -176,7 +181,7 @@ export default function Testimonial() {
                   <a className="inline-flex items-center">
                     <img
                       alt="testimonial"
-                      src="https://dummyimage.com/106x106"
+                      src={Person1}
                       className="w-12 h-12 rounded-full flex-shrink-0 object-cover object-center"
                     />
                     <span className="flex-grow flex flex-col pl-4">

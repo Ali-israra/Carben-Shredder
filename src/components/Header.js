@@ -54,12 +54,12 @@ export default function Header() {
             >
               About
             </Link>
-            <Link
+            {/* <Link
               to="/"
               className="mr-5 text-white text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
             >
               Calculator
-            </Link>
+            </Link> */}
             <Link
               to="/contact"
               className="mr-5 text-white text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
@@ -130,12 +130,12 @@ export default function Header() {
               </Link>
             </li>
             <li onClick={() => setIsOpen(false)}>
-              <Link
+              {/* <Link
                 to="/contact"
                 className="text-white text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
               >
                 Calculator
-              </Link>
+              </Link> */}
             </li>
             <li onClick={() => setIsOpen(false)}>
               <Link

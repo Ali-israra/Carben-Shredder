@@ -113,8 +113,8 @@ export default function Impact() {
                       <button
                         className={
                           selected
-                            ? "text-primary text-2xl py-5 px-5 focus-visible:outline-none border-r-4 border-primary text-right"
-                            : "bg-white text-black text-xl py-5 px-5 border-r-4 border-gray-500 text-right"
+                            ? "bg-primary text-2xl py-5 px-5 focus-visible:outline-none rounded text-white "
+                            : "bg-white text-black text-xl py-5 px-5  rounded"
                         }
                       >
                         Emissions Reductions
@@ -124,11 +124,11 @@ export default function Impact() {
                   <Tab as={Fragment}>
                     {({ selected }) => (
                       <button
-                        className={
-                          selected
-                            ? "text-primary text-2xl py-5 px-5 focus-visible:outline-none border-r-4 border-primary text-right"
-                            : "bg-white text-black text-xl py-5 px-5 border-r-4 border-gray-500 text-right"
-                        }
+                      className={
+                        selected
+                          ? "bg-primary text-2xl py-5 px-5 focus-visible:outline-none rounded text-white "
+                          : "bg-white text-black text-xl py-5 px-5  rounded"
+                      }
                       >
                         Conservation
                       </button>
@@ -137,11 +137,11 @@ export default function Impact() {
                   <Tab as={Fragment}>
                     {({ selected }) => (
                       <button
-                        className={
-                          selected
-                            ? "text-primary text-2xl py-5 px-5 focus-visible:outline-none border-r-4 border-primary text-right"
-                            : "bg-white text-black text-xl py-5 px-5 border-r-4 border-gray-500 text-right"
-                        }
+                      className={
+                        selected
+                          ? "bg-primary text-2xl py-5 px-5 focus-visible:outline-none rounded text-white "
+                          : "bg-white text-black text-xl py-5 px-5  rounded"
+                      }
                       >
                         Short-lived removal
                       </button>
@@ -150,11 +150,11 @@ export default function Impact() {
                   <Tab as={Fragment}>
                     {({ selected }) => (
                       <button
-                        className={
-                          selected
-                            ? "text-primary text-2xl py-5 px-5 focus-visible:outline-none border-r-4 border-primary text-right"
-                            : "bg-white text-black text-xl py-5 px-5 border-r-4 border-gray-500 text-right"
-                        }
+                      className={
+                        selected
+                          ? "bg-primary text-2xl py-5 px-5 focus-visible:outline-none rounded text-white "
+                          : "bg-white text-black text-xl py-5 px-5  rounded"
+                      }
                       >
                         Long-lived removal
                       </button>

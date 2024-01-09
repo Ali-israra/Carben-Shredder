@@ -11,10 +11,10 @@ export default function FaqsSection() {
               frequently asked <span className="text-primary">questions</span>
             </h1>
           </div>
-          <div className="flex flex-row gap-10">
+          <div className="flex flex-row ">
             <div className="basis-full  py-10 flex flex-col max-w-4xl mx-auto">
               <Disclosure
-                className="border rounded-lg my-5"
+                className="border rounded-lg my-3"
                 as="div"
                 style={{
                   boxShadow:
@@ -56,7 +56,7 @@ export default function FaqsSection() {
                 )}
               </Disclosure>
               <Disclosure
-                className="border rounded-lg my-5"
+                className="border rounded-lg my-3"
                 as="div"
                 style={{
                   boxShadow:
@@ -104,7 +104,7 @@ export default function FaqsSection() {
                 )}
               </Disclosure>
               <Disclosure
-                className="border rounded-lg my-5"
+                className="border rounded-lg my-3"
                 as="div"
                 style={{
                   boxShadow:
@@ -156,7 +156,60 @@ export default function FaqsSection() {
                 )}
               </Disclosure>
               <Disclosure
-                className="border rounded-lg my-5"
+                className="border rounded-lg my-3"
+                as="div"
+                style={{
+                  boxShadow:
+                    "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
+                }}
+              >
+                {({ open }) => (
+                  <>
+                    <Disclosure.Button
+                      className={`${
+                        open ? " text-primary" : ""
+                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring   `}
+                    >
+                      <span>How does your business model work?</span>
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className={`${
+                          open ? " transform rotate-180" : ""
+                        } h-5 w-5 text-primary  `}
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="m19.5 8.25-7.5 7.5-7.5-7.5"
+                        />
+                      </svg>
+                    </Disclosure.Button>
+                    <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500">
+                      80% of your subscription is sent straight to climate
+                      projects that plant trees, protect rainforest, and suck
+                      carbon out of the sky. The rest is spent keeping Wren
+                      running: paying salaries, sourcing the best climate
+                      projects, and paying for marketing to help as many people
+                      as possible take climate action. An additional processing
+                      fee is added to cover processing costs from our payment
+                      provider, Stripe, and varies by payment method.
+                      <br />
+                      <br />
+                      Our fee means we're able to hire the best talent in the
+                      world and put them to work reversing climate change. The
+                      best minds of our generation are optimizing Ads at Google
+                      and Facebook. We will only be able to hire those people if
+                      we can pay them.
+                    </Disclosure.Panel>
+                  </>
+                )}
+              </Disclosure>
+              <Disclosure
+                className="border rounded-lg my-3"
                 as="div"
                 style={{
                   boxShadow:

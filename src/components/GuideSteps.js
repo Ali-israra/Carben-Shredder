@@ -16,7 +16,9 @@ export default function GuideSteps() {
               Calculate your <br /> carbon footprint.
             </h1>
             <p className="text-lg">
-              Use our intuitive calculator to find out how much CO₂ you emit.
+              {/* Use our intuitive calculator to find out how much CO₂ you emit. */}
+              
+A carbon footprint measures the total greenhouse gas emissions directly and indirectly caused by an individual, organization, event, or product, usually expressed in equivalent tons of carbon dioxide.
             </p>
           </div>
           <div class="basis-full md:basis-6/12 bg-primary">
@@ -36,8 +38,9 @@ export default function GuideSteps() {
               Start a monthly subscription to fund climate solutions.
             </h1>
             <p className="text-lg">
-              Maximistte your impact by funding the climate solutions our planet
-              needs.
+              {/* Maximistte your impact by funding the climate solutions our planet
+              needs. */}
+              Maximize your impact by supporting and funding the essential climate solutions required for our planet's sustainability and well-being.
             </p>
           </div>
         </div>
@@ -50,8 +53,9 @@ export default function GuideSteps() {
               See your impact grow every month.
             </h1>
             <p className="text-lg">
-              Receive updates that show how you’re making a positive impact on
-              the climate
+              {/* Receive updates that show how you’re making a positive impact on
+              the climate */}
+              Witness your impact expand with each passing month. Receive regular updates showcasing the positive strides you're making towards climate action and creating a sustainable future.
             </p>
           </div>
           <div class="basis-full md:basis-6/12 bg-primary">

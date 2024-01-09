@@ -34,7 +34,7 @@ export default function Goals() {
               </p>
               <ul className="flex flex-col gap-8">
                 <li className="flex gap-5">
-                  <div className="flex justify-center items-center">
+                  <div className="flex justify-center items-start">
                     <img src={icon1} alt="icon" />
                   </div>
                   <div>
@@ -46,7 +46,7 @@ export default function Goals() {
                   </div>
                 </li>
                 <li className="flex gap-5">
-                  <div className="flex justify-center items-center">
+                  <div className="flex justify-center items-start">
                     <img src={icon2} alt="icon" />
                   </div>
                   <div>
@@ -58,7 +58,7 @@ export default function Goals() {
                   </div>
                 </li>
                 <li className="flex gap-5">
-                  <div className="flex justify-center items-center">
+                  <div className="flex justify-center items-start">
                     <img src={icon3} alt="icon" />
                   </div>
                   <div>
@@ -85,7 +85,7 @@ export default function Goals() {
               </p>
               <ul className="flex flex-col gap-8">
                 <li className="flex gap-5">
-                  <div className="flex justify-center items-center">
+                  <div className="flex justify-center items-start">
                     <img src={icon4} alt="icon" />
                   </div>
                   <div>
@@ -96,7 +96,7 @@ export default function Goals() {
                   </div>
                 </li>
                 <li className="flex gap-5">
-                  <div className="flex justify-center items-center">
+                  <div className="flex justify-center items-start">
                     <img src={icon5} alt="icon" />
                   </div>
                   <div>
@@ -107,7 +107,7 @@ export default function Goals() {
                   </div>
                 </li>
                 <li className="flex gap-5">
-                  <div className="flex justify-center items-center">
+                  <div className="flex justify-center items-start">
                     <img src={icon6} alt="icon" />
                   </div>
                   <div>
