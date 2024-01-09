@@ -12,7 +12,7 @@ export default function Footer() {
               to="/"
               className="flex flex-col font-medium items-start md:justify-start justify-center text-gray-900"
             >
-              <img src={Logo} className="w-60 " alt="Logo" />
+              <img src={Logo} className="w-32 " alt="Logo" />
             </Link>
           </div>
           <div className="flex basis-8/12   md:pl-20  md:mt-0 mt-10 md:text-left justify-start">
