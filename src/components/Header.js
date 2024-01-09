@@ -5,9 +5,25 @@ import menu from "../assets/images/menu.png";
 
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
+
+  const [color, setColor] = useState(false);
+  const changeColor = () => {
+    if (window.scrollY >= 90) {
+      setColor(true);
+    } else {
+      setColor(false);
+    }
+  };
+
+  window.addEventListener("scroll", changeColor);
+
   return (
     <>
-      <header className="navbar">
+      <header
+        className={
+          color ? "navbar header-sticky change-color" : "navbar header-sticky"
+        }
+      >
         {/* <div className="container mx-auto flex  p-5 flex-col md:flex-row items-center justify-between">
         <div></div>
           <Link
@@ -50,15 +66,20 @@ export default function Header() {
             >
               Contact Us
             </Link>
-          
           </nav>
-          <Link to='/' className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-        <img src={Logo} alt="" className="w-20" />
+          <Link
+            to="/"
+            className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0"
+          >
+            <img src={Logo} alt="" className="w-20" />
           </Link>
           <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-          <Link to="/calculator" className="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg items-center">
-            Get Started 
-            <svg
+            <Link
+              to="/calculator"
+              className="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg items-center"
+            >
+              Get Started
+              <svg
                 fill="none"
                 stroke="currentColor"
                 strokeLinecap="round"
@@ -70,7 +91,6 @@ export default function Header() {
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
             </Link>
-         
           </div>
         </div>
       </header>

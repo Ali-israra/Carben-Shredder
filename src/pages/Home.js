@@ -7,6 +7,7 @@ import StartedSection from '../components/StartedSection'
 import Testimonial from '../components/Testimonial'
 import Goals from '../components/Goals'
 import ProjectPartner from '../components/ProjectPartner'
+import Impact from '../components/Impact'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
     {/* <Partner/> */}
     <GuideSteps/>
     <StartedSection/>
+    <Impact/>
     <Testimonial/>
     <Goals/>
     <ProjectPartner/>

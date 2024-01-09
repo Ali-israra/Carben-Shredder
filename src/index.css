@@ -45,3 +45,14 @@ a {
   position: relative;
   z-index: 99999999;
 }
+
+.header-sticky{
+  position: sticky !important;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+
+.change-color nav a{
+  color:black !important;
+}

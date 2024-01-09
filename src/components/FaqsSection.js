@@ -13,7 +13,14 @@ export default function FaqsSection() {
           </div>
           <div className="flex flex-row gap-10">
             <div className="basis-full  py-10 flex flex-col max-w-4xl mx-auto">
-            <Disclosure className="border rounded-lg my-5" as="div" style={{ boxShadow: '10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)' }}>
+              <Disclosure
+                className="border rounded-lg my-5"
+                as="div"
+                style={{
+                  boxShadow:
+                    "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
+                }}
+              >
                 {({ open }) => (
                   <>
                     <Disclosure.Button
@@ -48,7 +55,14 @@ export default function FaqsSection() {
                   </>
                 )}
               </Disclosure>
-              <Disclosure className="border rounded-lg my-5" as="div" style={{ boxShadow: '10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)' }}>
+              <Disclosure
+                className="border rounded-lg my-5"
+                as="div"
+                style={{
+                  boxShadow:
+                    "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
+                }}
+              >
                 {({ open }) => (
                   <>
                     <Disclosure.Button
@@ -89,7 +103,14 @@ export default function FaqsSection() {
                   </>
                 )}
               </Disclosure>
-              <Disclosure className="border rounded-lg my-5" as="div" style={{ boxShadow: '10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)' }}>
+              <Disclosure
+                className="border rounded-lg my-5"
+                as="div"
+                style={{
+                  boxShadow:
+                    "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
+                }}
+              >
                 {({ open }) => (
                   <>
                     <Disclosure.Button
@@ -134,7 +155,14 @@ export default function FaqsSection() {
                   </>
                 )}
               </Disclosure>
-              <Disclosure className="border rounded-lg my-5" as="div" style={{ boxShadow: '10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)' }}>
+              <Disclosure
+                className="border rounded-lg my-5"
+                as="div"
+                style={{
+                  boxShadow:
+                    "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
+                }}
+              >
                 {({ open }) => (
                   <>
                     <Disclosure.Button
