@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/logo.png";
+import Logo from "../assets/images/footer-logo.png";
 import menu from "../assets/images/menu.png";
 
 export default function Header() {
@@ -44,25 +44,25 @@ export default function Header() {
           <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
             <Link
               to="/"
-              className="mr-5 text-white text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
+              className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
             >
               Home
             </Link>
             <Link
               to="/about"
-              className="mr-5 text-white text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
+              className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
             >
-              About
+              How it works
             </Link>
-            {/* <Link
+            <Link
               to="/"
-              className="mr-5 text-white text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
+              className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
             >
-              Calculator
-            </Link> */}
+              Our mission
+            </Link>
             <Link
               to="/contact"
-              className="mr-5 text-white text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
+              className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
             >
               Contact Us
             </Link>
@@ -78,7 +78,7 @@ export default function Header() {
               to="/calculator"
               className="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg items-center"
             >
-              Get Started
+              Start Shredding
               <svg
                 fill="none"
                 stroke="currentColor"
@@ -116,7 +116,7 @@ export default function Header() {
             <li onClick={() => setIsOpen(false)}>
               <Link
                 to="/"
-                className="text-white text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
+                className="text-black text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
               >
                 Home
               </Link>
@@ -124,7 +124,7 @@ export default function Header() {
             <li onClick={() => setIsOpen(false)}>
               <Link
                 to="/about"
-                className="text-white text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
+                className="text-black text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
               >
                 About
               </Link>
@@ -132,7 +132,7 @@ export default function Header() {
             <li onClick={() => setIsOpen(false)}>
               {/* <Link
                 to="/contact"
-                className="text-white text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
+                className="text-black text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
               >
                 Calculator
               </Link> */}
@@ -140,7 +140,7 @@ export default function Header() {
             <li onClick={() => setIsOpen(false)}>
               <Link
                 to="/contact"
-                className="text-white text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
+                className="text-black text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
               >
                 Contact Us
               </Link>
