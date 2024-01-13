@@ -5,6 +5,9 @@ import Footer from "./components/Footer";
 import Contact from "./pages/Contact";
 import About from "./pages/About";
 import Calculator from "./pages/Calculator";
+import HowItWorks from "./pages/HowItWorks";
+import PrivacyPolicy from "./pages/PrivacyPolicy";
+import TermsAndConditions from "./pages/TermsAndConditions";
 
 function App() {
   return (
@@ -15,6 +18,9 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/calculator" element={<Calculator />} />
         <Route exact path="/contact" element={<Contact />} />
+        <Route exact path="/how-it-works" element={<HowItWorks />} />
+        <Route exact path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route exact path="/terms-and-conditions" element={<TermsAndConditions />} />
       </Routes>
       <Footer/>
     </>

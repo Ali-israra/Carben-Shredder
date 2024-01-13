@@ -1,22 +1,29 @@
 import { Fragment } from "react";
 import { Tab } from "@headlessui/react";
+import GlobeImg from "../assets/images/globe-image.png";
+import Project1 from "../assets/images/project-1.jpg";
+import Project2 from "../assets/images/project-2.jpeg";
+import Project3 from "../assets/images/project-3.png";
+import Project4 from "../assets/images/project-4.jpeg";
 
 export default function Impact() {
   return (
     <>
       <section className="text-gray-600 body-font">
-        <div className="container px-5 py-24 mx-auto">
+        <div className="container px-5 pt-24 mx-auto">
           <div className="flex flex-col text-center w-full mb-20">
             <h1 className="text-black text-3xl md:text-[40px] leading-[50px] text-center ">
-              That’s the same climate{" "}
-              <span className="text-primary"> impact as:</span>
+              How it works
             </h1>
-            {/* <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.</p> */}
+            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+              Get to know your offset sources
+            </p>
           </div>
-          <div className="flex flex-wrap -m-4 text-center">
+
+          {/* <div className="flex flex-wrap -m-4 text-center">
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                {/* <svg
+                 <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
@@ -27,7 +34,7 @@ export default function Impact() {
                 >
                   <path d="M8 17l4 4 4-4m-4-5v9" />
                   <path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29" />
-                </svg> */}
+                </svg> 
                 <div className="h-14 w-14 mb-5 bg-primary mx-auto"></div>
                 <h2 className="title-font font-medium text-3xl text-gray-900">
                   16.5
@@ -37,7 +44,7 @@ export default function Impact() {
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                {/* <svg
+                 <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
@@ -49,7 +56,7 @@ export default function Impact() {
                   <path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" />
                   <circle cx={9} cy={7} r={4} />
                   <path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75" />
-                </svg> */}
+                </svg> 
                 <div className="h-14 w-14 mb-5 bg-primary mx-auto"></div>
                 <h2 className="title-font font-medium text-3xl text-gray-900">
                   0.2
@@ -59,7 +66,7 @@ export default function Impact() {
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                {/* <svg
+                 <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
@@ -70,7 +77,7 @@ export default function Impact() {
                 >
                   <path d="M3 18v-6a9 9 0 0118 0v6" />
                   <path d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z" />
-                </svg> */}
+                </svg> 
                 <div className="h-14 w-14 mb-5 bg-primary mx-auto"></div>
                 <h2 className="title-font font-medium text-3xl text-gray-900">
                   0.1
@@ -80,7 +87,7 @@ export default function Impact() {
             </div>
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
-                {/* <svg
+               <svg
                   fill="none"
                   stroke="currentColor"
                   strokeLinecap="round"
@@ -90,7 +97,7 @@ export default function Impact() {
                   viewBox="0 0 24 24"
                 >
                   <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
-                </svg> */}
+                </svg> 
                 <div className="h-14 w-14 mb-5 bg-primary mx-auto"></div>
                 <h2 className="title-font font-medium text-3xl text-gray-900">
                   3.6
@@ -98,11 +105,33 @@ export default function Impact() {
                 <p className="leading-relaxed">flights from LA to New York</p>
               </div>
             </div>
+          </div> */}
+        </div>
+      </section>
+
+      <section className="text-gray-600 body-font">
+        <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 ">
+            <img
+              className="object-cover object-center rounded"
+              alt="hero"
+              src={GlobeImg}
+            />
+          </div>
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+            <p className="mb-8 text-lg leading-relaxed">
+              We partner with CNaught to purchase a diversified portfolio of
+              high-quality carbon credits that is designed to maximize impact,
+              mitigate risk, and foster innovation. A portfolio approach to
+              carbon credits is recommended by the World Economic Forum, and the
+              CNaught portfolio embodies the science-based best practices laid
+              out in Oxford’s Principles for Carbon Offsetting.
+            </p>
           </div>
         </div>
       </section>
 
-      <section>
+      <section className="pb-24">
         <div className="container mx-auto px-4">
           <Tab.Group>
             <div className="flex flex-row items-center">
@@ -117,46 +146,46 @@ export default function Impact() {
                             : "bg-white text-black text-xl py-5 px-5  rounded"
                         }
                       >
-                        Emissions Reductions
+                        Emissions Reductions * 55%
                       </button>
                     )}
                   </Tab>
                   <Tab as={Fragment}>
                     {({ selected }) => (
                       <button
-                      className={
-                        selected
-                          ? "bg-primary text-2xl py-5 px-5 focus-visible:outline-none rounded text-white "
-                          : "bg-white text-black text-xl py-5 px-5  rounded"
-                      }
+                        className={
+                          selected
+                            ? "bg-primary text-2xl py-5 px-5 focus-visible:outline-none rounded text-white "
+                            : "bg-white text-black text-xl py-5 px-5  rounded"
+                        }
                       >
-                        Conservation
+                        Conservation * 35%
                       </button>
                     )}
                   </Tab>
                   <Tab as={Fragment}>
                     {({ selected }) => (
                       <button
-                      className={
-                        selected
-                          ? "bg-primary text-2xl py-5 px-5 focus-visible:outline-none rounded text-white "
-                          : "bg-white text-black text-xl py-5 px-5  rounded"
-                      }
+                        className={
+                          selected
+                            ? "bg-primary text-2xl py-5 px-5 focus-visible:outline-none rounded text-white "
+                            : "bg-white text-black text-xl py-5 px-5  rounded"
+                        }
                       >
-                        Short-lived removal
+                        Short-lived removal * 9.5%
                       </button>
                     )}
                   </Tab>
                   <Tab as={Fragment}>
                     {({ selected }) => (
                       <button
-                      className={
-                        selected
-                          ? "bg-primary text-2xl py-5 px-5 focus-visible:outline-none rounded text-white "
-                          : "bg-white text-black text-xl py-5 px-5  rounded"
-                      }
+                        className={
+                          selected
+                            ? "bg-primary text-2xl py-5 px-5 focus-visible:outline-none rounded text-white "
+                            : "bg-white text-black text-xl py-5 px-5  rounded"
+                        }
                       >
-                        Long-lived removal
+                        Long-lived removal * 0.5%
                       </button>
                     )}
                   </Tab>
@@ -173,6 +202,43 @@ export default function Impact() {
                       refrigerants that would otherwise be vented to the
                       atmosphere, and capture of methane emitted from landfills.
                     </p>
+                    <div class="p-8 mt-5 bg-primary bg-opacity-10 rounded-xl flex flex-wrap md:flex-nowrap gap-5">
+                      <div class="md:w-64  flex-shrink-0 flex flex-col my-auto">
+                        <img
+                          src={Project1}
+                          className=" object-cover rounded"
+                          alt=""
+                        />
+                      </div>
+                      <div class="md:flex-grow">
+                        <h2 class="text-xl font-medium text-gray-900  mb-2">
+                          Gaziantep Landfill Gas Project
+                        </h2>
+                        <p class="leading-relaxed">
+                          This project collects landfill gas to generate 5.655MW
+                          of electricity at a landfill serving Gaziantep City,
+                          Turkey, avoiding the emission of methane (a potent
+                          greenhouse gas) into the atmosphere and using the
+                          methane to generate power and displace dirtier
+                          fossil-fuel-driven power in the electric grid.
+                        </p>
+                        <a class="text-primary inline-flex items-center mt-4">
+                          Learn More
+                          <svg
+                            class="w-4 h-4 ml-2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
                   </Tab.Panel>
                   <Tab.Panel>
                     <h1 className="text-2xl">Conservation</h1>
@@ -183,6 +249,43 @@ export default function Impact() {
                       rainforests that would be cut down for development or peat
                       bogs that might be drained for agriculture.
                     </p>
+
+                    <div class="p-8 mt-5 bg-primary bg-opacity-10 rounded-xl flex flex-wrap md:flex-nowrap gap-5">
+                      <div class="md:w-64  flex-shrink-0 flex flex-col my-auto">
+                        <img
+                          src={Project2}
+                          className=" object-cover rounded"
+                          alt=""
+                        />
+                      </div>
+                      <div class="md:flex-grow">
+                        <h2 class="text-xl font-medium text-gray-900  mb-2">
+                          Katingan Mentaya Project
+                        </h2>
+                        <p class="leading-relaxed">
+                          One of the highest-regarded avoided deforestation
+                          projects in the world, this project protects and
+                          restores 149,800 hectares of peatland ecosystems in
+                          Indonesia that would likely otherwise have been
+                          converted to palm and other plantations.
+                        </p>
+                        <a class="text-primary inline-flex items-center mt-4">
+                          Learn More
+                          <svg
+                            class="w-4 h-4 ml-2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
                   </Tab.Panel>
                   <Tab.Panel>
                     <h1 className="text-2xl">Short-lived removal</h1>
@@ -193,6 +296,40 @@ export default function Impact() {
                       that has previously been clear cut or restoring plant life
                       to tidal wetlands.
                     </p>
+                    <div class="p-8 mt-5 bg-primary bg-opacity-10 rounded-xl flex flex-wrap md:flex-nowrap gap-5">
+                      <div class="md:w-64  flex-shrink-0 flex flex-col my-auto">
+                        <img
+                          src={Project3}
+                          className=" object-cover rounded"
+                          alt=""
+                        />
+                      </div>
+                      <div class="md:flex-grow">
+                        <h2 class="text-xl font-medium text-gray-900  mb-2">
+                          Kootznoowoo Native Community Forestry Project
+                        </h2>
+                        <p class="leading-relaxed">
+                          A relatively small North American forestry project,
+                          Kootznoowoo protects 20,159 acres of forest across
+                          four areas on Prince of Wales Island, Alaska.
+                        </p>
+                        <a class="text-primary inline-flex items-center mt-4">
+                          Learn More
+                          <svg
+                            class="w-4 h-4 ml-2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
                   </Tab.Panel>
                   <Tab.Panel>
                     <h1 className="text-2xl">Long-lived removal</h1>
@@ -203,6 +340,44 @@ export default function Impact() {
                       Examples include direct air capture technology and storage
                       of carbon through enhanced rock weathering.
                     </p>
+                    <div class="p-8 mt-5 bg-primary bg-opacity-10 rounded-xl flex flex-wrap md:flex-nowrap gap-5">
+                      <div class="md:w-64  flex-shrink-0 flex flex-col my-auto">
+                        <img
+                          src={Project4}
+                          className=" object-cover rounded"
+                          alt=""
+                        />
+                      </div>
+                      <div class="md:flex-grow">
+                        <h2 class="text-xl font-medium text-gray-900  mb-2">
+                          Frontier Carbon Removal Portfolio
+                        </h2>
+                        <p class="leading-relaxed">
+                          Frontier is an advance market commitment to buy $1B+
+                          of permanent carbon removal between 2022 and 2030. It
+                          aims to accelerate the development of carbon removal
+                          technologies by guaranteeing future demand for them.
+                          The goal is to send a strong demand signal to
+                          researchers, entrepreneurs, and investors that there
+                          is a growing market for these technologies.{" "}
+                        </p>
+                        <a class="text-primary inline-flex items-center mt-4">
+                          Learn More
+                          <svg
+                            class="w-4 h-4 ml-2"
+                            viewBox="0 0 24 24"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            fill="none"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          >
+                            <path d="M5 12h14"></path>
+                            <path d="M12 5l7 7-7 7"></path>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
                   </Tab.Panel>
                 </Tab.Panels>
               </div>

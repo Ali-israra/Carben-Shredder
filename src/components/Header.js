@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import Logo from "../assets/images/footer-logo.png";
+import Logo from "../assets/images/footer-logo-2.png";
 import menu from "../assets/images/menu.png";
 
 export default function Header() {
@@ -49,13 +49,13 @@ export default function Header() {
               Home
             </Link>
             <Link
-              to="/about"
+              to="/how-it-works"
               className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
             >
               How it works
             </Link>
             <Link
-              to="/"
+              to="/about"
               className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
             >
               Our mission
@@ -78,7 +78,7 @@ export default function Header() {
               to="/calculator"
               className="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg items-center"
             >
-              Start Shredding
+              Start shredding
               <svg
                 fill="none"
                 stroke="currentColor"

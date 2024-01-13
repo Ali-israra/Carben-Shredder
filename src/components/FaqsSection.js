@@ -7,7 +7,7 @@ export default function FaqsSection() {
       <div className="container mx-auto px-5 py-20">
         <div className="flex flex-col">
           <div className="max-w-5xl mx-auto">
-            <h1 className="text-black text-3xl md:text-[40px] leading-[50px] text-center ">
+            <h1 className="text-black text-3xl md:text-[40px] leading-[50px] text-center capitalize">
               frequently asked <span className="text-primary">questions</span>
             </h1>
           </div>
@@ -47,10 +47,10 @@ export default function FaqsSection() {
                       </svg>
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500">
-                      As a subscriber, you fund carbon reduction projects. Each
-                      month, we send out an "impact update" email sharing the
-                      progress being made from your funding. You can learn more
-                      about our projects by visiting our Projects page.
+                      When you subscribe to our service, you help fund projects
+                      that reduce carbon emissions. To keep you informed about
+                      the progress made from your funding, you will have a
+                      personalized dashboard.
                     </Disclosure.Panel>
                   </>
                 )}
@@ -91,14 +91,13 @@ export default function FaqsSection() {
                       </svg>
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500">
-                      The cost of offsetting your carbon footprint depends on
-                      how much carbon your lifestyle emits, and on the cost of
-                      removing that carbon from the atmosphere.
-                      <br />
-                      <br />
-                      On average, it's about $23 for a Wren user to offset their
-                      carbon footprint. Many choose to offset half or double
-                      their carbon footprint.
+                      The amount you'll need to spend to offset your carbon
+                      footprint depends on the amount of carbon emissions your
+                      lifestyle generates and the cost of removing that carbon
+                      from the atmosphere. This will be estimated by our
+                      calculator. For every tonne of CO2 offset, the cost is $20
+                      USD. It's worth noting that some users choose to offset
+                      half or double their carbon footprint.
                     </Disclosure.Panel>
                   </>
                 )}
@@ -139,18 +138,17 @@ export default function FaqsSection() {
                       </svg>
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500">
-                      The first thing you should do is see how you can reduce
-                      your carbon footprint and offset the rest.
-                      <br />
-                      You can also educate others on climate change. Most people
-                      don't realize how urgent the problem is. Extinction
-                      Rebellion has some great educational content on their
-                      website.
-                      <br />
-                      Lastly, make sure to vote and be politically active. Local
-                      governments can move the fastest, so write to your city
-                      council people and representatives and tell them why you
-                      care about climate change.
+                      One of the best ways to combat climate change is by
+                      reducing your carbon footprint and offsetting the
+                      remainder. Additionally, it's important to educate others
+                      about the seriousness of the issue, since many people are
+                      not aware of its urgency. You can find useful educational
+                      resources on Extinction Rebellion's website. Finally, it's
+                      crucial to take political action by voting and contacting
+                      your local representatives. Local governments often
+                      respond more quickly, so consider reaching out to your
+                      city council members and representatives to express your
+                      concern about climate change.
                     </Disclosure.Panel>
                   </>
                 )}
@@ -189,74 +187,12 @@ export default function FaqsSection() {
                       </svg>
                     </Disclosure.Button>
                     <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500">
-                      80% of your subscription is sent straight to climate
-                      projects that plant trees, protect rainforest, and suck
-                      carbon out of the sky. The rest is spent keeping Wren
-                      running: paying salaries, sourcing the best climate
-                      projects, and paying for marketing to help as many people
-                      as possible take climate action. An additional processing
-                      fee is added to cover processing costs from our payment
-                      provider, Stripe, and varies by payment method.
-                      <br />
-                      <br />
-                      Our fee means we're able to hire the best talent in the
-                      world and put them to work reversing climate change. The
-                      best minds of our generation are optimizing Ads at Google
-                      and Facebook. We will only be able to hire those people if
-                      we can pay them.
-                    </Disclosure.Panel>
-                  </>
-                )}
-              </Disclosure>
-              <Disclosure
-                className="border rounded-lg my-3"
-                as="div"
-                style={{
-                  boxShadow:
-                    "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
-                }}
-              >
-                {({ open }) => (
-                  <>
-                    <Disclosure.Button
-                      className={`${
-                        open ? " text-primary" : ""
-                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring   `}
-                    >
-                      <span>How does your business model work?</span>
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        strokeWidth={1.5}
-                        stroke="currentColor"
-                        className={`${
-                          open ? " transform rotate-180" : ""
-                        } h-5 w-5 text-primary  `}
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          d="m19.5 8.25-7.5 7.5-7.5-7.5"
-                        />
-                      </svg>
-                    </Disclosure.Button>
-                    <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500">
-                      80% of your subscription is sent straight to climate
-                      projects that plant trees, protect rainforest, and suck
-                      carbon out of the sky. The rest is spent keeping Wren
-                      running: paying salaries, sourcing the best climate
-                      projects, and paying for marketing to help as many people
-                      as possible take climate action. An additional processing
-                      fee is added to cover processing costs from our payment
-                      provider, Stripe, and varies by payment method.
-                      <br />
-                      <br />
-                      Our fee means we're able to hire the best talent in the
-                      world and put them to work reversing climate change. The
-                      best minds of our generation are optimizing Ads at Google
-                      and Facebook. We will only be able to hire those people if
-                      we can pay them.
+                      When you subscribe, the majority of your payment (90%)
+                      goes directly to Cnaught, an organization that manages
+                      climate projects such as tree planting, rainforest
+                      protection, and carbon capture. The remaining amount is
+                      used to maintain and improve our platform, which is
+                      dedicated to fulfilling our mission.
                     </Disclosure.Panel>
                   </>
                 )}

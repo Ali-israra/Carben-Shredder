@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../assets/images/footer-logo.png";
+import Logo from "../assets/images/footer-logo-2.png";
 import { Link } from "react-router-dom";
 
 export default function Footer() {
@@ -16,7 +16,7 @@ export default function Footer() {
             </Link>
           </div>
           <div className="flex basis-8/12   md:pl-20  md:mt-0 mt-10 md:text-left justify-start">
-            <div className=" md:basis-1/2 basis-full px-4 ">
+            <div className=" md:basis-1/3 basis-full px-4 ">
               <h2 className=" font-bold text-gray-900 tracking-widest text-2xl mb-3">
                 Quick Links
               </h2>
@@ -31,20 +31,20 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
+                    to="/how-it-works"
+                    className="text-gray-600 hover:text-gray-800 text-xl"
+                  >
+                    How it works
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     to="/about"
                     className="text-gray-600 hover:text-gray-800 text-xl"
                   >
-                    About
+                    Our mission
                   </Link>
                 </li>
-                {/* <li>
-                  <Link
-                    to="/calculator"
-                    className="text-gray-600 hover:text-gray-800 text-xl"
-                  >
-                    Calculator
-                  </Link>
-                </li> */}
                 <li>
                   <Link
                     to="/contact"
@@ -53,9 +53,26 @@ export default function Footer() {
                     Contact Us
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    to="/terms-and-conditions"
+                    className="text-gray-600 hover:text-gray-800 text-xl"
+                  >
+                    Terms & Conditions
+
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/privacy-policy"
+                    className="text-gray-600 hover:text-gray-800 text-xl"
+                  >
+                   Privacy Policy
+                  </Link>
+                </li>
               </nav>
             </div>
-            <div className=" md:basis-1/2 basis-full px-4">
+            <div className=" md:basis-1/3 basis-full px-4">
               <h2 className="font-bold text-gray-900 tracking-widest text-xl mb-3">
                 Follow Us
               </h2>
@@ -127,6 +144,86 @@ export default function Footer() {
                   </svg>
                 </a>
               </span>
+            </div>
+            <div className="md:basis-1/3 basis-full">
+            <ul className="flex flex-col gap-8 ">
+                <li className="flex gap-5">
+                  <div className="flex justify-center items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                      />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h1 className="font-bold text-gray-900 tracking-widest text-xl mb-3">Address</h1>
+                    <p className="text-lg leading-10">
+                      Cecilia Chapman 711-2880 Nulla St.
+                    </p>
+                  </div>
+                </li>
+                {/* <li className="flex gap-5">
+                  <div className="flex justify-center items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h1 className="text-2xl capitalize">Phone</h1>
+                    <p className="text-lg leading-10">+1 (866)-838-5838</p>
+                  </div>
+                </li>
+                <li className="flex gap-5">
+                  <div className="flex justify-center items-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth={1.5}
+                      stroke="currentColor"
+                      className="w-6 h-6"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
+                      />
+                    </svg>
+                  </div>
+                  <div>
+                    <h1 className="text-2xl capitalize">Email</h1>
+                    <p className="text-lg leading-10">
+                      info@carbonshredder.com
+                    </p>
+                  </div>
+                </li> */}
+              </ul>
+
             </div>
           </div>
         </div>

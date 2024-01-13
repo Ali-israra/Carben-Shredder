@@ -1,21 +1,28 @@
 import React from "react";
-import PageHeader from "../assets/images/page-header.jpg";
-import AboutImage from "../assets/images/about-image.jpg";
+// import PageHeader from "../assets/images/page-header.jpg";
+// import AboutImage from "../assets/images/about-image.jpg";
+import OurMission from "../components/OurMission";
+import Goals from "../components/Goals";
+import FounderProfile from "../components/FounderProfile";
+import Hero from "../components/Hero";
 
 export default function About() {
   return (
     <>
       <section
-        className="h-[50vh] "
-        style={{ backgroundImage: `url(${PageHeader})` }}
+        className=" h-96 bg-primary bg-opacity-10"
       >
         <div className="conatiner mx-auto px-4 h-full">
-          <div className="flex flex-col justify-center items-center h-full">
-            <h1 className="capitalize text-5xl my-auto text-white">About Us</h1>
+          <div className="flex flex-col justify-end items-center h-full">
+            <h1 className="capitalize text-5xl mb-20 text-black">About Carbon Shredder</h1>
           </div>
         </div>
       </section>
-      <section>
+      <OurMission OurMission="Our vision is crystal clear: to be at the forefront of a global movement towards carbon neutrality. We envision a future where individuals and businesses are equipped to make informed choices that positively impact the environment. Through our cutting-edge carbon credit platform and user-friendly app, we are reshaping the way people engage with their carbon footprint. Our goal is to contribute to a healthier, greener planet for generations to come."/>
+      <Goals/>
+      <FounderProfile/>
+      <Hero/>
+      {/* <section>
         <div className="container mx-auto px-4">
           <div className="flex flex-row gap-20 py-20">
             <div className="basis-full md:basis-6/12 my-auto">
@@ -133,7 +140,7 @@ export default function About() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </>
   );
 }
