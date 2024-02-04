@@ -10,7 +10,7 @@ export default function Contact() {
       >
         <div className="conatiner mx-auto px-4 h-full">
           <div className="flex flex-col justify-end items-center h-full">
-            <h1 className="capitalize text-5xl mb-20 text-black">
+            <h1 className=" text-5xl mb-20 text-black">
               Contact our support team
             </h1>
           </div>
@@ -45,7 +45,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h1 className="text-2xl capitalize">Address</h1>
+                    <h1 className="text-2xl ">Address</h1>
                     <p className="text-lg leading-10">
                       Cecilia Chapman 711-2880 Nulla St.
                     </p>
@@ -69,7 +69,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h1 className="text-2xl capitalize">Phone</h1>
+                    <h1 className="text-2xl ">Phone</h1>
                     <p className="text-lg leading-10">+1 (866)-838-5838</p>
                   </div>
                 </li>
@@ -91,7 +91,7 @@ export default function Contact() {
                     </svg>
                   </div>
                   <div>
-                    <h1 className="text-2xl capitalize">Email</h1>
+                    <h1 className="text-2xl ">Email</h1>
                     <p className="text-lg leading-10">
                       info@carbonshredder.com
                     </p>

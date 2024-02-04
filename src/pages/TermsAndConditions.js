@@ -8,7 +8,7 @@ export default function TermsAndConditions() {
       >
         <div className="conatiner mx-auto px-4 h-full">
           <div className="flex flex-col justify-end items-center h-full">
-            <h1 className="capitalize text-5xl mb-20 text-black">Terms & Conditions
+            <h1 className=" text-5xl mb-20 text-black">Terms & Conditions
 </h1>
           </div>
         </div>

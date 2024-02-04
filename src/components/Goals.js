@@ -24,7 +24,7 @@ export default function Goals() {
               <img src={img1} className="max-h-[800px] text-center m-auto" alt="" />
             </div>
             <div className="basis-full md:basis-6/12 flex gap-6 flex-col my-auto">
-              <h1 className="text-3xl  capitalize leading-10">
+              <h1 className="text-3xl   leading-10">
                 We provide a platform for tracking and offsetting carbon
                 emissions
               </h1>
@@ -35,7 +35,7 @@ export default function Goals() {
                     <img src={icon1} className="w-28" alt="icon" />
                   </div>
                   <div>
-                    <h1 className="text-2xl capitalize">
+                    <h1 className="text-2xl ">
                       Baseline your carbon footprint
                     </h1>
                     <p className="text-lg leading-10">
@@ -50,7 +50,7 @@ export default function Goals() {
                     <img src={icon2}  alt="icon" />
                   </div>
                   <div>
-                    <h1 className="text-2xl capitalize">
+                    <h1 className="text-2xl ">
                       Track your lifestyle changes
                     </h1>
                     <p className="text-lg leading-10">
@@ -64,7 +64,7 @@ export default function Goals() {
                     <img src={icon3} className="w-28" alt="icon" />
                   </div>
                   <div>
-                    <h1 className="text-2xl capitalize">
+                    <h1 className="text-2xl ">
                       Small contributions can have a big impact
                     </h1>
                     <p className="text-lg leading-10">
@@ -80,7 +80,7 @@ export default function Goals() {
           </div>
           <div className="flex py-10 flex-row gap-16">
             <div className="basis-full md:basis-6/12 flex gap-6 flex-col my-auto">
-              <h1 className="text-3xl  capitalize leading-10">
+              <h1 className="text-3xl   leading-10">
                 Our core values driving a positive impact for you
               </h1>
 
@@ -90,7 +90,7 @@ export default function Goals() {
                     <img src={icon4} className="w-28" alt="icon" />
                   </div>
                   <div>
-                    <h1 className="text-2xl capitalize">Sustainability</h1>
+                    <h1 className="text-2xl ">Sustainability</h1>
                     <p className="text-lg leading-10">
                       We are dedicated to promoting environmental responsibility
                       and sustainable living, striving to make a positive impact
@@ -103,7 +103,7 @@ export default function Goals() {
                     <img src={icon5} className="w-28" alt="icon" />
                   </div>
                   <div>
-                    <h1 className="text-2xl capitalize">Transparency</h1>
+                    <h1 className="text-2xl ">Transparency</h1>
                     <p className="text-lg leading-10">
                       We believe in openness and honesty, providing our users
                       with clear insights into their carbon footprint and the
@@ -116,7 +116,7 @@ export default function Goals() {
                     <img src={icon6} className="w-28" alt="icon" />
                   </div>
                   <div>
-                    <h1 className="text-2xl capitalize">Innovation</h1>
+                    <h1 className="text-2xl ">Innovation</h1>
                     <p className="text-lg leading-10">
                       We continuously explore cutting-edge technology to develop
                       user-friendly solutions that empower you to embrace carbon

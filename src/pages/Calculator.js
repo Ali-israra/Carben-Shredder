@@ -10,7 +10,7 @@ export default function Calculator() {
       >
         <div className="conatiner mx-auto px-4 h-full">
           <div className="flex flex-col justify-center items-center h-full">
-            <h1 className="capitalize text-5xl my-auto text-white">Calculator</h1>
+            <h1 className=" text-5xl my-auto text-white">Calculator</h1>
           </div>
         </div>
       </section>

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/footer-logo-2.png";
-import menu from "../assets/images/menu.png";
-
+import menuicon from "../assets/images/menu.png";
+import { Menu } from '@headlessui/react'
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -48,12 +48,41 @@ export default function Header() {
             >
               Home
             </Link>
-            <Link
+            {/* <Link
               to="/how-it-works"
               className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
             >
               How it works
-            </Link>
+            </Link> */}
+<Menu>
+      <Menu.Button>More</Menu.Button>
+      <Menu.Items>
+        <Menu.Item>
+          {({ active }) => (
+            <a
+              className={`${active && 'bg-blue-500'}`}
+              href="/account-settings"
+            >
+              Account settings
+            </a>
+          )}
+        </Menu.Item>
+        <Menu.Item>
+          {({ active }) => (
+            <a
+              className={`${active && 'bg-blue-500'}`}
+              href="/account-settings"
+            >
+              Documentation
+            </a>
+          )}
+        </Menu.Item>
+        <Menu.Item disabled>
+          <span className="opacity-75">Invite a friend (coming soon!)</span>
+        </Menu.Item>
+      </Menu.Items>
+    </Menu>
+
             <Link
               to="/about"
               className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
@@ -64,7 +93,7 @@ export default function Header() {
               to="/contact"
               className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
             >
-              Contact Us
+              Connect
             </Link>
           </nav>
           <Link
@@ -142,7 +171,7 @@ export default function Header() {
                 to="/contact"
                 className="text-black text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
               >
-                Contact Us
+                Connect
               </Link>
             </li>
           </ul>

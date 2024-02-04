@@ -14,7 +14,7 @@ export default function ProjectPartner() {
       <section className="bg-primary bg-opacity-10">
         <div className="container mx-auto py-28 ">
           <div className="flex flex-col gap-8 justify-center items-center ">
-            <h1 className="text-3xl md:text-[40px] leading-[50px] capitalize text-center">
+            <h1 className="text-3xl md:text-[40px] leading-[50px]  text-center">
               Our projects partner with the best in the business
             </h1>
             {/* <div className="flex flex-row justify-between items-center gap-10 pt-10">

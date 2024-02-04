@@ -194,7 +194,7 @@ export default function Footer() {
                     </svg>
                   </div>
                   <div>
-                    <h1 className="text-2xl capitalize">Phone</h1>
+                    <h1 className="text-2xl ">Phone</h1>
                     <p className="text-lg leading-10">+1 (866)-838-5838</p>
                   </div>
                 </li>
@@ -216,7 +216,7 @@ export default function Footer() {
                     </svg>
                   </div>
                   <div>
-                    <h1 className="text-2xl capitalize">Email</h1>
+                    <h1 className="text-2xl ">Email</h1>
                     <p className="text-lg leading-10">
                       info@carbonshredder.com
                     </p>

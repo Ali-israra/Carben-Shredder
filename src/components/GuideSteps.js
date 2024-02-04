@@ -16,7 +16,7 @@ export default function GuideSteps() {
             <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm">
               01
             </h1>
-            <h1 className="text-3xl md:text-[40px] capitalize leading-[50px]">
+            <h1 className="text-3xl md:text-[40px]  leading-[50px]">
               Estimate your carbon footprint
             </h1>
             <p className="text-lg">
@@ -52,7 +52,7 @@ export default function GuideSteps() {
             <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm">
               02
             </h1>
-            <h1 className="text-3xl md:text-[40px] capitalize leading-[50px]">
+            <h1 className="text-3xl md:text-[40px]  leading-[50px]">
               Shred your carbon footprint by subscribing to our monthly carbon
               offset service.
             </h1>
@@ -69,7 +69,7 @@ export default function GuideSteps() {
             <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm">
               03
             </h1>
-            <h1 className="text-3xl md:text-[40px] capitalize leading-[50px]">
+            <h1 className="text-3xl md:text-[40px]  leading-[50px]">
               Track your carbon footprint and offsets.
             </h1>
             <p className="text-lg">
