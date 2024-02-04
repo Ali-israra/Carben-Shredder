@@ -48,13 +48,13 @@ export default function Header() {
             >
               Home
             </Link>
-            {/* <Link
+            <Link
               to="/how-it-works"
               className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
             >
               How it works
-            </Link> */}
-<Menu>
+            </Link>
+{/* <Menu>
       <Menu.Button>More</Menu.Button>
       <Menu.Items>
         <Menu.Item>
@@ -81,7 +81,7 @@ export default function Header() {
           <span className="opacity-75">Invite a friend (coming soon!)</span>
         </Menu.Item>
       </Menu.Items>
-    </Menu>
+    </Menu> */}
 
             <Link
               to="/about"
