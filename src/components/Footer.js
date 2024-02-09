@@ -20,7 +20,7 @@ export default function Footer() {
               <h2 className=" font-bold text-gray-900 tracking-widest text-2xl mb-3">
                 Quick Links
               </h2>
-              <nav className="list-none ">
+              <nav className="list-none pb-10">
                 <li>
                   <Link
                     to="/"
