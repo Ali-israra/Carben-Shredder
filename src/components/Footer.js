@@ -39,6 +39,14 @@ export default function Footer() {
                 </li>
                 <li>
                   <Link
+                    to="/faqs"
+                    className="text-gray-600 hover:text-gray-800 text-xl"
+                  >
+                    Faq's
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     to="/about"
                     className="text-gray-600 hover:text-gray-800 text-xl"
                   >
@@ -50,10 +58,10 @@ export default function Footer() {
                     to="/contact"
                     className="text-gray-600 hover:text-gray-800 text-xl"
                   >
-                    Contact Us
+                    Connect
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     to="/terms-and-conditions"
                     className="text-gray-600 hover:text-gray-800 text-xl"
@@ -61,7 +69,7 @@ export default function Footer() {
                     Terms & Conditions
 
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     to="/privacy-policy"
@@ -70,6 +78,7 @@ export default function Footer() {
                    Privacy Policy
                   </Link>
                 </li>
+        
               </nav>
             </div>
             <div className=" md:basis-1/3 basis-full px-4">

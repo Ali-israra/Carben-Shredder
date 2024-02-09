@@ -1,7 +1,7 @@
 import React from "react";
 import Step1 from "../assets/images/step-1.png";
 import Step2 from "../assets/images/step-2.png";
-import Step3 from "../assets/images/step-3.png";
+import Step3 from "../assets/images/microplatics.png";
 
 export default function GuideSteps() {
   return (
