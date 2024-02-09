@@ -7,6 +7,7 @@ import Testimonial from '../components/Testimonial'
 import Goals from '../components/Goals'
 import Impact from '../components/Impact'
 import OurMission from '../components/OurMission'
+import Illustration from "../components/Illustration.js"
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
     <Impact/>
     <Testimonial/>
     <Goals/>
+    <Illustration/>
     <FaqsSection/>
     </>
   )

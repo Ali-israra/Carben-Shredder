@@ -1,5 +1,5 @@
 import React from "react";
-import MissionImg from "../assets/images/our-mission.jpg"
+import MissionImg from "../assets/images/logo-w.png"
 
 export default function OurMission(props) {
   return (
@@ -8,16 +8,16 @@ export default function OurMission(props) {
         <div className="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 ">
             <img
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded w-[60%]"
               alt="hero"
               src={MissionImg}
             />
           </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center pt-10">
             <h1 className=" sm:text-6xl text-3xl mb-4 font-medium text-gray-900">
-              Our Mission
+            The Carbon Shredder
             </h1>
-            <p className="mb-8 text-lg leading-relaxed">
+            <p className="mb-8 text-black text-lg leading-relaxed">
               {props.OurMission}
               {/* Our mission is to offer you a comprehensive platform for tracking
               and offsetting carbon emissions, tailored to your lifestyle. We

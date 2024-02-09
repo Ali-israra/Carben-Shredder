@@ -6,14 +6,15 @@ import Step3 from "../assets/images/microplatics.png";
 export default function GuideSteps() {
   return (
     <>
-      <div className="container mx-auto  px-4">
+    <section className="bg-primary bg-opacity-10">
+      <div className="container mx-auto py-20 px-4">
         <div className="text-center">
-          <h1 className="text-black text-3xl md:text-[40px] leading-[50px] text-center">How it works</h1>
+          <h1 className="text-black text-3xl md:text-[40px] leading-[50px] text-center ">How it works</h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">Shred your carbon</p>
         </div>
         <div class="flex flex-row gap-16 pb-10">
           <div class="basis-full md:basis-6/12 flex flex-col gap-10 justify-center">
-            <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm">
+            <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm bg-white">
               01
             </h1>
             <h1 className="text-3xl md:text-[40px]  leading-[50px]">
@@ -40,16 +41,16 @@ export default function GuideSteps() {
             </p>
           </div>
           <div class="basis-full md:basis-6/12 ">
-            <img src={Step1} className="text-center" alt="" />
+            <img src={Step1} className="text-center w-[90%]" alt="" />
             {/* <div className="h-14 w-14 mb-5 bg-primary mx-auto"></div> */}
           </div>
         </div>
         <div class="flex flex-row gap-16 py-10">
           <div class="basis-full md:basis-6/12    ">
-            <img src={Step2} alt="" className="text-center" />
+            <img src={Step2} alt="" className="text-center w-[90%]" />
           </div>
           <div class="basis-full md:basis-6/12 flex flex-col gap-10 justify-center">
-            <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm">
+            <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm bg-white">
               02
             </h1>
             <h1 className="text-3xl md:text-[40px]  leading-[50px]">
@@ -66,7 +67,7 @@ export default function GuideSteps() {
         </div>
         <div class="flex flex-row gap-16 py-10">
           <div class="basis-full md:basis-6/12 flex flex-col gap-10 justify-center">
-            <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm">
+            <h1 className="h-7 w-7 rounded-full border border-primary flex justify-center items-center p-5 text-sm bg-white">
               03
             </h1>
             <h1 className="text-3xl md:text-[40px]  leading-[50px]">
@@ -78,10 +79,11 @@ export default function GuideSteps() {
             </p>
           </div>
           <div class="basis-full md:basis-6/12 ">
-            <img src={Step3} alt="" className="text-center"/>
+            <img src={Step3} alt="" className="text-center w-[90%]"/>
           </div>
         </div>
       </div>
+      </section>
     </>
   );
 }

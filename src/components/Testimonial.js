@@ -12,7 +12,7 @@ import Person3 from "../assets/images/person-3.jpg";
 export default function Testimonial() {
   return (
     <>
-      <section className="bg-primary bg-opacity-10">
+      <section >
         <div className="container mx-auto px-5 py-20">
           <div className="flex flex-col">
             <div className="max-w-5xl mx-auto">

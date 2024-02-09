@@ -8,7 +8,7 @@ export default function FaqsSection() {
         <div className="flex flex-col">
           <div className="max-w-5xl mx-auto">
             <h1 className="text-black text-3xl md:text-[40px] leading-[50px] text-center ">
-              frequently asked <span className="text-primary">questions</span>
+              Frequently asked <span className="text-primary">questions</span>
             </h1>
           </div>
           <div className="flex flex-row ">
@@ -16,17 +16,17 @@ export default function FaqsSection() {
               <Disclosure
                 className="border rounded-lg my-3"
                 as="div"
-                style={{
-                  boxShadow:
-                    "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
-                }}
+                // style={{
+                //   boxShadow:
+                //     "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
+                // }}
               >
                 {({ open }) => (
                   <>
                     <Disclosure.Button
                       className={`${
-                        open ? " text-primary" : ""
-                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring items-center  `}
+                        open ? " text-black" : ""
+                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring items-center  bg-primary bg-opacity-10`}
                     >
                       <span>What happens once I subscribe?</span>
                       <svg
@@ -46,7 +46,7 @@ export default function FaqsSection() {
                         />
                       </svg>
                     </Disclosure.Button>
-                    <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500">
+                    <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500 bg-primary bg-opacity-10">
                       When you subscribe to our service, you help fund projects
                       that reduce carbon emissions. To keep you informed about
                       the progress made from your funding, you will have a
@@ -58,17 +58,17 @@ export default function FaqsSection() {
               <Disclosure
                 className="border rounded-lg my-3"
                 as="div"
-                style={{
-                  boxShadow:
-                    "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
-                }}
+                // style={{
+                //   boxShadow:
+                //     "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
+                // }}
               >
                 {({ open }) => (
                   <>
                     <Disclosure.Button
                       className={`${
-                        open ? " text-primary" : ""
-                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring   `}
+                        open ? " text-black" : ""
+                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring  bg-primary bg-opacity-10 `}
                     >
                       <span>
                         How much does it cost to offset my carbon footprint?
@@ -90,7 +90,7 @@ export default function FaqsSection() {
                         />
                       </svg>
                     </Disclosure.Button>
-                    <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500">
+                    <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500 bg-primary bg-opacity-10">
                       The amount you'll need to spend to offset your carbon
                       footprint depends on the amount of carbon emissions your
                       lifestyle generates and the cost of removing that carbon
@@ -105,17 +105,17 @@ export default function FaqsSection() {
               <Disclosure
                 className="border rounded-lg my-3"
                 as="div"
-                style={{
-                  boxShadow:
-                    "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
-                }}
+                // style={{
+                //   boxShadow:
+                //     "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
+                // }}
               >
                 {({ open }) => (
                   <>
                     <Disclosure.Button
                       className={`${
-                        open ? " text-primary" : ""
-                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring   `}
+                        open ? " text-black" : ""
+                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring bg-primary bg-opacity-10  `}
                     >
                       <span>
                         What else can I do to help end the climate crisis?
@@ -137,7 +137,7 @@ export default function FaqsSection() {
                         />
                       </svg>
                     </Disclosure.Button>
-                    <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500">
+                    <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500 bg-primary bg-opacity-10">
                       One of the best ways to combat climate change is by
                       reducing your carbon footprint and offsetting the
                       remainder. Additionally, it's important to educate others
@@ -156,17 +156,17 @@ export default function FaqsSection() {
               <Disclosure
                 className="border rounded-lg my-3"
                 as="div"
-                style={{
-                  boxShadow:
-                    "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
-                }}
+                // style={{
+                //   boxShadow:
+                //     "10px 10px 40px 0px rgba(0, 0, 0, 0.05), -10px -10px 40px 0px rgba(0, 0, 0, 0.05)",
+                // }}
               >
                 {({ open }) => (
                   <>
                     <Disclosure.Button
                       className={`${
-                        open ? " text-primary" : ""
-                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring   `}
+                        open ? " text-black" : ""
+                      } flex w-full justify-between rounded-lg px-4 py-5 text-left text-lg font-medium   focus:outline-none focus-visible:ring  bg-primary bg-opacity-10 `}
                     >
                       <span>How does your business model work?</span>
                       <svg
@@ -186,7 +186,7 @@ export default function FaqsSection() {
                         />
                       </svg>
                     </Disclosure.Button>
-                    <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500">
+                    <Disclosure.Panel className="px-4 pb-2 pt-4 text-base text-gray-500 bg-primary bg-opacity-10">
                       When you subscribe, the majority of your payment (90%)
                       goes directly to Cnaught, an organization that manages
                       climate projects such as tree planting, rainforest

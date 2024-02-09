@@ -10,7 +10,7 @@ export default function Hero() {
               Shred your <br />
               <span className="text-primary">carbon footprint </span>
             </h1>
-            <p>Offset your carbon footprint by subscribing to a monthly service that calculates and compensates for your environmental impact.</p>
+            <p className="text-white  leading-10 text-2xl mb-7">Offset your carbon footprint by subscribing to a monthly service that calculates and compensates for your environmental impact.</p>
             <div className="flex justify-center">
               <button className="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg justify-center items-center">
                 Start shredding
