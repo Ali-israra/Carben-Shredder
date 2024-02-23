@@ -17,37 +17,37 @@ export default function About() {
         </div>
       </section>
       <section className="text-gray-600 body-font">
-      <div className="container px-5 pb-24 mx-auto">
-        <div className="grid grid-cols-2 gap-10 pt-20">
-          {/* Our commitment to best practices */}
-          <div className="bg-white rounded-lg shadow-lg p-6 ">
-            <h2 className="text-2xl font-semibold mb-4">Our mission</h2>
-            <p className="text-lg mb-4">
-              At Carbon Shredder, we are not just a service; we are a
-              mission-driven movement. Our goal is to revolutionize the way
-              individuals and communities engage with their carbon footprint.
-              We're dedicated to developing a real-time carbon tracking
-              subscription service that not only informs but empowers action
-              towards a more sustainable world.
-            </p>
-          </div>
+        <div className="container px-5 pb-24 mx-auto">
+          <div className="grid grid-cols-2 gap-10 pt-20">
+            {/* Our commitment to best practices */}
+            <div className="bg-white rounded-lg shadow-lg p-6 ">
+              <h2 className="text-2xl font-semibold mb-4">Our mission</h2>
+              <p className="text-lg mb-4">
+                At Carbon Shredder, we are not just a service; we are a
+                mission-driven movement. Our goal is to revolutionize the way
+                individuals and communities engage with their carbon footprint.
+                We're dedicated to developing a real-time carbon tracking
+                subscription service that not only informs but empowers action
+                towards a more sustainable world.
+              </p>
+            </div>
 
-          <div className="bg-white rounded-lg shadow-lg p-6 ">
-            <h2 className="text-2xl font-semibold mb-4">
-              Why real-time tracking matters
-            </h2>
-            <p className="text-lg mb-4">
-              Understanding your carbon footprint in real-time is a
-              game-changer. It transforms abstract numbers into tangible,
-              actionable insights. With real-time tracking, you can
-              immediately see the impact of your lifestyle changes, making the
-              journey towards carbon neutrality more interactive, responsive,
-              and effective.
-            </p>
+            <div className="bg-white rounded-lg shadow-lg p-6 ">
+              <h2 className="text-2xl font-semibold mb-4">
+                Why real-time tracking matters
+              </h2>
+              <p className="text-lg mb-4">
+                Understanding your carbon footprint in real-time is a
+                game-changer. It transforms abstract numbers into tangible,
+                actionable insights. With real-time tracking, you can
+                immediately see the impact of your lifestyle changes, making the
+                journey towards carbon neutrality more interactive, responsive,
+                and effective.
+              </p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
       {/**
       <OurMission OurMission="Our vision is crystal clear: to be at the forefront of a global movement towards carbon neutrality. We envision a future where individuals and businesses are equipped to make informed choices that positively impact the environment. Through our cutting-edge carbon credit platform and user-friendly app, we are reshaping the way people engage with their carbon footprint. Our goal is to contribute to a healthier, greener planet for generations to come." />
       <Goals />
@@ -179,42 +179,37 @@ export default function About() {
               Be part of the change
             </h1>
           </div>
-          <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/3 md:w-1/2 p-4 ">
-              <div className="border border-gray-200 bg-white shadow-lg p-6 rounded-lg">
-                <h2 className="text-lg text-gray-900 font-medium  mb-2">
-                  Stay informed
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Follow our progress and stay up-to-date with the latest
-                  developments in real-time carbon tracking and offsetting.
-                </p>
-              </div>
+          <div className="grid grid-cols-3 gap-10">
+            <div className="border border-gray-200 bg-white shadow-lg p-6 rounded-lg">
+              <h2 className="text-lg text-gray-900 font-medium  mb-2">
+                Stay informed
+              </h2>
+              <p className="leading-relaxed text-base">
+                Follow our progress and stay up-to-date with the latest
+                developments in real-time carbon tracking and offsetting.
+              </p>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4 ">
-              <div className="border border-gray-200 bg-white rounded-lg shadow-lg p-6 ">
-                <h2 className="text-lg text-gray-900 font-medium  mb-2">
-                  Engage and share
-                </h2>
-                <p className="leading-relaxed text-base">
-                  Your journey with Carbon Shredder is a story worth sharing.
-                  Engage with our community, spread the word, and inspire others
-                  to join the movement.
-                </p>
-              </div>
+
+            <div className="border border-gray-200 bg-white rounded-lg shadow-lg p-6 ">
+              <h2 className="text-lg text-gray-900 font-medium  mb-2">
+                Engage and share
+              </h2>
+              <p className="leading-relaxed text-base">
+                Your journey with Carbon Shredder is a story worth sharing.
+                Engage with our community, spread the word, and inspire others
+                to join the movement.
+              </p>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4 ">
-              <div className="border border-gray-200 p-6 bg-white rounded-lg shadow-lg">
-                <h2 className="text-lg text-gray-900 font-medium  mb-2">
-                  Grow with us
-                </h2>
-                <p className="leading-relaxed text-base">
-                  As we grow and evolve, so will the ways in which we can
-                  collectively make a difference. Your support, feedback, and
-                  engagement are crucial in shaping the future of Carbon
-                  Shredder.
-                </p>
-              </div>
+
+            <div className="border border-gray-200 p-6 bg-white rounded-lg shadow-lg">
+              <h2 className="text-lg text-gray-900 font-medium  mb-2">
+                Grow with us
+              </h2>
+              <p className="leading-relaxed text-base">
+                As we grow and evolve, so will the ways in which we can
+                collectively make a difference. Your support, feedback, and
+                engagement are crucial in shaping the future of Carbon Shredder.
+              </p>
             </div>
           </div>
           <p className=" mt-16 text-black  text-2xl max-w-4xl mx-auto text-center">
@@ -224,8 +219,6 @@ export default function About() {
           </p>
         </div>
       </section>
-
-  
     </>
   );
 }

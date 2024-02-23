@@ -24,16 +24,16 @@ export default function PartnershipWithCNaught() {
           </p>
           {/* Our Partnership with CNaught */}
           <div className="py-6 mb-8">
-            <h2 className="text-2xl font-semibold mb-4">
+            <h2 className="text-2xl text-black font-semibold mb-4">
               Our Partnership with CNaught
             </h2>
-            <p className="text-lg mb-4">
+            <p className="text-lg mb-4 text-black">
               At Carbon Shredder, we are committed to making a significant
               impact in the fight against climate change. To achieve this, we
               have partnered with CNaught, a leading provider in the carbon
               offset market.
             </p>
-            <p className="text-lg mb-4">
+            <p className="text-lg mb-4 text-black">
               <i>
                 Here's an in-depth look at how this partnership works and the
                 sources of our carbon offsets:
@@ -53,7 +53,7 @@ export default function PartnershipWithCNaught() {
                 energy initiatives like solar and wind farms, destruction of
                 harmful refrigerants, and capturing methane emissions from
                 landfills.
-                <br />
+                <br /><br />
                 <b className="text-black">Impact:</b> These projects help prevent emissions that would
                 otherwise contribute to global warming, effectively reducing the
                 overall amount of greenhouse gases released into the atmosphere.
@@ -68,7 +68,7 @@ export default function PartnershipWithCNaught() {
                 nature-based, aiming to protect existing natural carbon sinks.
                 Examples include safeguarding rainforests from deforestation and
                 preserving peat bogs.
-                <br />
+                <br /><br />
                 <b className="text-black">Impact:</b> By conserving these vital ecosystems, we prevent
                 the release of stored carbon, maintaining the earth’s natural
                 balance and biodiversity.
@@ -83,7 +83,7 @@ export default function PartnershipWithCNaught() {
                 remove existing carbon from the atmosphere and store it in new
                 plants, trees, or soil. Examples include reforestation efforts
                 and restoring plant life in areas like tidal wetlands.
-                <br />
+                <br /><br />
                 <b className="text-black">Impact:</b> These projects actively remove carbon dioxide
                 from the atmosphere, contributing to a net reduction in global
                 greenhouse gas levels.
@@ -98,7 +98,7 @@ export default function PartnershipWithCNaught() {
                 cutting-edge engineered solutions for carbon removal, which hold
                 great promise but are not yet widely available. Examples are
                 direct air capture technology and carbon storage through
-                enhanced rock weathering. <br />
+                enhanced rock weathering. <br /><br />
                 <b className="text-black">Impact:</b> These innovative projects represent the future of
                 carbon offsetting, offering long-term solutions to remove and
                 store carbon dioxide from the atmosphere.
