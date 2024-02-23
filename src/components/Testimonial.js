@@ -30,7 +30,7 @@ export default function Testimonial() {
                 autoplay
               >
                 <SwiperSlide>
-                  <div className="h-full bg-gray-100 bg-opacity-50 p-8 rounded">
+                  <div className="h-full bg-white rounded-lg shadow-lg p-8 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -63,7 +63,7 @@ export default function Testimonial() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="h-full bg-gray-100 bg-opacity-50 p-8 rounded">
+                  <div className="h-full bg-white rounded-lg shadow-lg p-8 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -96,7 +96,7 @@ export default function Testimonial() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="h-full bg-gray-100 bg-opacity-50 p-8 rounded">
+                  <div className="h-full bg-white rounded-lg shadow-lg p-8 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -129,7 +129,7 @@ export default function Testimonial() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="h-full bg-gray-100 bg-opacity-50 p-8 rounded">
+                  <div className="h-full bg-white rounded-lg shadow-lg p-8 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -162,7 +162,7 @@ export default function Testimonial() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="h-full bg-gray-100 bg-opacity-50 p-8 rounded">
+                  <div className="h-full bg-white rounded-lg shadow-lg p-8 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"

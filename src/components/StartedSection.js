@@ -1,4 +1,5 @@
 import React from "react";
+import FlightImg from '../assets/images/fligh-image.jpg'
 
 export default function StartedSection() {
   return (
@@ -10,8 +11,9 @@ export default function StartedSection() {
             "We are the FIRST generation to feel the impact of climate change and the LAST generation that can do something about it."
             </h1>
             <button className="inline-flex text-white bg-primary border-0 py-2 px-6 focus:outline-none hover:bg-secondary rounded text-lg">
-              Shred your carbon
+             Shred your flights
             </button>
+            <img src={FlightImg} alt="" />
           </div>
         </div>
       </section>

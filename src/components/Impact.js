@@ -9,11 +9,11 @@ import Project4 from "../assets/images/project-4.jpeg";
 export default function Impact() {
   return (
     <>
-      <section className="text-gray-600 ">
+      {/*<section className="text-gray-600 ">
         <div className="container px-5 pt-24 mx-auto">
     
 
-          {/* <div className="flex flex-wrap -m-4 text-center">
+       <div className="flex flex-wrap -m-4 text-center">
             <div className="p-4 md:w-1/4 sm:w-1/2 w-full">
               <div className="border-2 border-gray-200 px-4 py-6 rounded-lg">
                  <svg
@@ -98,36 +98,36 @@ export default function Impact() {
                 <p className="leading-relaxed">flights from LA to New York</p>
               </div>
             </div>
-          </div> */}
+          </div> 
         </div>
-      </section>
+      </section>*/}
 
-      <section className="text-gray-600  bg-primary bg-opacity-10">
-      <div className="flex flex-col text-center w-full py-20">
-            <h1 className="text-black text-3xl md:text-[40px] leading-[50px] text-center ">
-              How it works
-            </h1>
-            <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-              Get to know your offset sources
-            </p>
-          </div>
-        <div className="container mx-auto flex px-5 pb-24 md:flex-row flex-col items-center">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0 ">
+      <section className="text-gray-600  ">
+        <div className="flex flex-col text-center w-full pt-20 pb-52 bg-primary bg-opacity-10">
+          <h1 className="text-black text-3xl md:text-[40px] leading-[50px] text-center ">
+            How it works
+          </h1>
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
+            Get to know your offset sources
+          </p>
+        </div>
+        <div className="container mx-auto  max-w-4xl -mt-28">
+          <div className="flex px-5  md:flex-row flex-col items-center bg-white gap-10 rounded-lg shadow-lg p-10">
             <img
-              className="object-cover object-center rounded"
+              className="object-cover object-center rounded w-52"
               alt="hero"
               src={GlobeImg}
             />
-          </div>
-          <div className="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-            <p className="mb-8 text-black text-lg leading-relaxed">
-              We partner with CNaught to purchase a diversified portfolio of
-              high-quality carbon credits that is designed to maximize impact,
-              mitigate risk, and foster innovation. A portfolio approach to
-              carbon credits is recommended by the World Economic Forum, and the
-              CNaught portfolio embodies the science-based best practices laid
-              out in Oxford’s Principles for Carbon Offsetting.
-            </p>
+            <div className=" flex flex-col md:items-start md:text-left items-center text-center">
+              <p className=" text-black text-lg leading-relaxed">
+                We partner with CNaught to purchase a diversified portfolio of
+                high-quality carbon credits that is designed to maximize impact,
+                mitigate risk, and foster innovation. A portfolio approach to
+                carbon credits is recommended by the World Economic Forum, and
+                the CNaught portfolio embodies the science-based best practices
+                laid out in Oxford’s Principles for Carbon Offsetting.
+              </p>
+            </div>
           </div>
         </div>
       </section>

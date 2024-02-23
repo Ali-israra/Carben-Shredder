@@ -9,6 +9,7 @@
 }
 body{
   font-family: Helvetica-Regular;
+  background: rgb(243 244 246);
 }
 
 @font-face {
@@ -41,6 +42,9 @@ a {
   font-family: Helvetica-Regular;
 }
 
+.footer-link{
+  font-family: Helvetica-light;
+}
 .navbar {
   /* background: rgba(255, 255, 255, 0.02) !important; */
   /* backdrop-filter: blur(27.5px) !important; */

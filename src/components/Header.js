@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../assets/images/footer-logo-2.png";
 import menuicon from "../assets/images/menu.png";
-import { Menu } from '@headlessui/react'
+import { Menu } from "@headlessui/react";
 export default function Header() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -48,40 +48,54 @@ export default function Header() {
             >
               Home
             </Link>
-            <Link
-              to="/how-it-works"
-              className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
-            >
-              How it works
-            </Link>
-{/* <Menu>
-      <Menu.Button>More</Menu.Button>
-      <Menu.Items>
-        <Menu.Item>
-          {({ active }) => (
-            <a
-              className={`${active && 'bg-blue-500'}`}
-              href="/account-settings"
-            >
-              Account settings
-            </a>
-          )}
-        </Menu.Item>
-        <Menu.Item>
-          {({ active }) => (
-            <a
-              className={`${active && 'bg-blue-500'}`}
-              href="/account-settings"
-            >
-              Documentation
-            </a>
-          )}
-        </Menu.Item>
-        <Menu.Item disabled>
-          <span className="opacity-75">Invite a friend (coming soon!)</span>
-        </Menu.Item>
-      </Menu.Items>
-    </Menu> */}
+            <Menu className="relative " as="div">
+              <Link to="/how-it-works">
+                <Menu.Button className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline flex flex-row items-center gap-2">
+                <span>
+                How it works
+                  
+                  </span>
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
+  <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+</svg>
+
+                </Menu.Button>
+              </Link>
+              <Menu.Items as="div" className="absolute  bg-white flex flex-col w-72 p-3 rounded shadow-sm">
+                <Menu.Item>
+                  <Link
+                    to="/calculator-works"
+                    className=" text-black text-3xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
+                  >
+                    How our carbon footprint calculator works
+                  </Link>
+                </Menu.Item>
+                <Menu.Item>
+                  <Link
+                    to="/subscription-works"
+                    className=" text-black text-3xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
+                  >
+                    How our subscription works
+                  </Link>
+                </Menu.Item>
+                <Menu.Item>
+                  <Link
+                    to="/track-your-carbon-impact"
+                    className=" text-black text-3xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
+                  >
+                    How to Track Your Carbon Impact
+                  </Link>
+                </Menu.Item>
+                <Menu.Item>
+                  <Link
+                    to="/partnership-with-cnaught"
+                    className=" text-black text-3xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
+                  >
+                    How we source carbon offsets: Partnership with CNaught
+                  </Link>
+                </Menu.Item>
+              </Menu.Items>
+            </Menu>
 
             <Link
               to="/about"

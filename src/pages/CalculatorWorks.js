@@ -14,12 +14,12 @@ export default function CalculatorWorks() {
       </section>
 
       <div className="container mx-auto px-4 py-20 max-w-5xl">
-        {/* <h1 className="text-3xl font-bold mb-8">
-          How Our Carbon Footprint Calculator Works
-        </h1> */}
+        
         <p className="text-xl font-bold mb-8">Our Carbon Footprint Calculator is a meticulously designed tool that not only estimates your current carbon footprint but also accounts for past emissions based on your age. Here's how it operates:</p>
+       <div className="grid grid-cols-2 gap-8">
+       
         {/* Step 1: Gathering Personal Information */}
-        <div className="mb-8">
+        <div className="bg-white rounded-lg shadow-lg p-8">
           <h2 className="text-2xl font-semibold mb-4">
             Step 1: Gathering Personal Information
           </h2>
@@ -46,7 +46,7 @@ export default function CalculatorWorks() {
           </div>
         </div>
         {/* Step 2: Understanding Your Lifestyle */}
-        <div className="mb-8">
+        <div className="bg-white rounded-lg shadow-lg p-8 row-span-2">
           <h2 className="text-2xl font-semibold mb-4">
             Step 2: Understanding Your Lifestyle
           </h2>
@@ -144,7 +144,7 @@ export default function CalculatorWorks() {
           </div>
         </div>
         {/* Step 3: Calculation */}
-        <div className="mb-8">
+        <div className="bg-white rounded-lg shadow-lg p-8">
           <h2 className="text-2xl font-semibold mb-4">Step 3: Calculation</h2>
           <p className="text-lg text-black" >
            <b> Emission Factors: </b> Each response is linked to specific emission
@@ -159,7 +159,7 @@ export default function CalculatorWorks() {
           </p>
         </div>
         {/* Step 4: Estimating past and present emissions */}
-        <div className="mb-8">
+        <div className="bg-white rounded-lg shadow-lg p-8 col-span-2">
           <h2 className="text-2xl font-semibold mb-4">
             Step 4: Estimating past and present emissions
           </h2>
@@ -174,8 +174,9 @@ export default function CalculatorWorks() {
             dioxide (tCO2e).
           </p>
         </div>
+        </div>
         {/* Understanding Your Impact */}
-        <div>
+        <div className="mt-10">
           <h2 className="text-2xl font-semibold mb-4">
             Understanding Your Impact
           </h2>
