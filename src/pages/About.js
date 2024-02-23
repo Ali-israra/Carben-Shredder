@@ -180,8 +180,8 @@ export default function About() {
             </h1>
           </div>
           <div className="flex flex-wrap -m-4">
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+            <div className="xl:w-1/3 md:w-1/2 p-4 ">
+              <div className="border border-gray-200 bg-white shadow-lg p-6 rounded-lg">
                 <h2 className="text-lg text-gray-900 font-medium  mb-2">
                   Stay informed
                 </h2>
@@ -191,8 +191,8 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+            <div className="xl:w-1/3 md:w-1/2 p-4 ">
+              <div className="border border-gray-200 bg-white rounded-lg shadow-lg p-6 ">
                 <h2 className="text-lg text-gray-900 font-medium  mb-2">
                   Engage and share
                 </h2>
@@ -203,8 +203,8 @@ export default function About() {
                 </p>
               </div>
             </div>
-            <div className="xl:w-1/3 md:w-1/2 p-4">
-              <div className="border border-gray-200 p-6 rounded-lg">
+            <div className="xl:w-1/3 md:w-1/2 p-4 ">
+              <div className="border border-gray-200 p-6 bg-white rounded-lg shadow-lg">
                 <h2 className="text-lg text-gray-900 font-medium  mb-2">
                   Grow with us
                 </h2>

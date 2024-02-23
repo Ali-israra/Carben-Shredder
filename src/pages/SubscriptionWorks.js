@@ -107,7 +107,7 @@ export default function SubscriptionWorks() {
             </p>
           </div>
           <div className="grid grid-cols-3 gap-10 ">
-            <div className="  w-full">
+            <div className=" bg-white shadow-lg rounded-lg w-full">
               <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                 <h1 className="text-5xl text-gray-900 pb-4 mb-4 border-b border-gray-200 leading-none">
                   Basic shredder
@@ -167,7 +167,7 @@ export default function SubscriptionWorks() {
                 </p>
               </div>
             </div>
-            <div className="  w-full">
+            <div className=" bg-white shadow-lg rounded-lg w-full">
               <div className="h-full p-6 rounded-lg border-2 border-primary flex flex-col relative overflow-hidden">
                 <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
                   <span>Standard shredder</span>
@@ -213,7 +213,7 @@ export default function SubscriptionWorks() {
                 </p>
               </div>
             </div>
-            <div className=" w-full">
+            <div className="bg-white shadow-lg rounded-lg w-full">
               <div className="h-full p-6 rounded-lg border-2 border-gray-300 flex flex-col relative overflow-hidden">
                 <h1 className="text-5xl text-gray-900 leading-none flex items-center pb-4 mb-4 border-b border-gray-200">
                   <span>Ultimate shredder</span>
