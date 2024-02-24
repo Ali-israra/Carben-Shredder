@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Hero() {
   return (
-    <section className="h-[800px] bg-[url('./assets/images/img-27.jpg')] bg-no-repeat bg-cover bg-black ">
+    <section className="h-[800px] bg-[url('./assets/images/FullSizeRender.jpg')] bg-no-repeat bg-cover bg-black ">
       <div className="w-full h-full flex  justify-center items-center backdrop-brightness-50">
         <div className="container mx-auto my-auto h-full flex px-5 py-24 items-center justify-center flex-col">
           <div className="text-center flex justify-center items-center lg:w-2/3 w-full flex-col my-auto">

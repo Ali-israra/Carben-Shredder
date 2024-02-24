@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../components/Hero";
 
 export default function PartnershipWithCNaught() {
   return (
@@ -137,7 +138,7 @@ export default function PartnershipWithCNaught() {
           </div>
         </div>
       </section>
-
+<Hero/>
       {/*  <section>
         <div className="container mx-auto px-4 pb-8 pt-20 max-w-5xl">
           <p className="text-lg text-black">

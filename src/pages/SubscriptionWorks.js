@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../components/Hero";
 
 export default function SubscriptionWorks() {
   return (
@@ -7,7 +8,7 @@ export default function SubscriptionWorks() {
         <div className="conatiner mx-auto px-4 h-full">
           <div className="flex flex-col justify-end items-center h-full">
             <h1 className=" text-5xl mb-20 text-black">
-              How our subscription works
+            How our carbon subscription works
             </h1>
           </div>
         </div>
@@ -278,6 +279,7 @@ export default function SubscriptionWorks() {
           </div>
         </div>
       </section>
+      <Hero/>
     </>
   );
 }

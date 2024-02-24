@@ -12,7 +12,7 @@ import Person3 from "../assets/images/person-3.jpg";
 export default function Testimonial() {
   return (
     <>
-      <section >
+      <section className="bg-white" >
         <div className="container mx-auto px-5 py-20">
           <div className="flex flex-col">
             <div className="max-w-5xl mx-auto">
@@ -30,7 +30,7 @@ export default function Testimonial() {
                 autoplay
               >
                 <SwiperSlide>
-                  <div className="h-full bg-white rounded-lg shadow-lg p-8 ">
+                  <div className="h-full  bg-gray-100 rounded-lg shadow-lg p-8 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -63,7 +63,7 @@ export default function Testimonial() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="h-full bg-white rounded-lg shadow-lg p-8 ">
+                  <div className="h-full bg-gray-100 rounded-lg shadow-lg p-8 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -96,7 +96,7 @@ export default function Testimonial() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="h-full bg-white rounded-lg shadow-lg p-8 ">
+                  <div className="h-full bg-gray-100 rounded-lg shadow-lg p-8 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -129,7 +129,7 @@ export default function Testimonial() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="h-full bg-white rounded-lg shadow-lg p-8 ">
+                  <div className="h-full bg-gray-100 rounded-lg shadow-lg p-8 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"
@@ -162,7 +162,7 @@ export default function Testimonial() {
                   </div>
                 </SwiperSlide>
                 <SwiperSlide>
-                  <div className="h-full bg-white rounded-lg shadow-lg p-8 ">
+                  <div className="h-full bg-gray-100 rounded-lg shadow-lg p-8 ">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       fill="currentColor"

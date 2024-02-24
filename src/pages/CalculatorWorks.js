@@ -1,4 +1,5 @@
 import React from "react";
+import Hero from "../components/Hero"
 
 export default function CalculatorWorks() {
   return (
@@ -246,6 +247,7 @@ export default function CalculatorWorks() {
           </p>
         </div>
       </div>
+      <Hero/>
     </>
   );
 }

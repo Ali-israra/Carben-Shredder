@@ -3,9 +3,10 @@ import img1 from "../assets/images/9825103.jpg";
 
 export default function Illustration() {
   return (
-    <section>
+    <section className="bg-white">
       <div className="container mx-auto py-20">
-        <div className="flex flex-row">
+        <div className="flex flex-row  justify-center items-center gap-10">
+        {/*
           <div className="basis-6/12 gap-10 my-auto p-20">
             <h1 className="text-black mb-5 text-4xl">
             Emissions from food 
@@ -24,10 +25,10 @@ export default function Illustration() {
                   <path d="M5 12h14M12 5l7 7-7 7" />
                 </svg>
               </button>
-          </div>
-          <div className="basis-6/12">
-            <img src={img1} alt="" className="w-[90%]" />
-          </div>
+          </div> */}
+          <img src={img1} alt="" className="w-7/12 text-center" />
+          {/* <div className="basis-6/12">
+          </div> */}
         </div>
       </div>
     </section>

@@ -75,7 +75,7 @@ export default function Header() {
                     to="/subscription-works"
                     className=" text-black text-3xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
                   >
-                    How our subscription works
+                  How our carbon subscription works
                   </Link>
                 </Menu.Item>
                 <Menu.Item>
@@ -83,7 +83,7 @@ export default function Header() {
                     to="/track-your-carbon-impact"
                     className=" text-black text-3xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
                   >
-                    How to Track Your Carbon Impact
+                  How to track your carbon impact
                   </Link>
                 </Menu.Item>
                 <Menu.Item>

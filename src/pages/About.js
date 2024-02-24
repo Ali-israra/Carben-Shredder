@@ -48,6 +48,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      
       {/**
       <OurMission OurMission="Our vision is crystal clear: to be at the forefront of a global movement towards carbon neutrality. We envision a future where individuals and businesses are equipped to make informed choices that positively impact the environment. Through our cutting-edge carbon credit platform and user-friendly app, we are reshaping the way people engage with their carbon footprint. Our goal is to contribute to a healthier, greener planet for generations to come." />
       <Goals />
@@ -75,16 +76,16 @@ export default function About() {
           </div>
         </div>
       </section>*/}
-      <section className="">
+      <section className="bg-white">
         <div className="container px-5 py-24 mx-auto">
           <div className="text-center mb-20">
             <h1 className="sm:text-3xl text-2xl font-medium  text-gray-900 mb-4">
-              Investing in our mission:
+              Investing in our mission
             </h1>
           </div>
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
             <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-              <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-white text-primary mb-5 flex-shrink-0">
+              <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-100 text-primary mb-5 flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -111,7 +112,7 @@ export default function About() {
               </div>
             </div>
             <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-              <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-white text-primary mb-5 flex-shrink-0">
+              <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-100 text-primary mb-5 flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -141,7 +142,7 @@ export default function About() {
               </div>
             </div>
             <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
-              <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-white text-primary mb-5 flex-shrink-0">
+              <div className="w-20 h-20 inline-flex items-center justify-center rounded-full bg-gray-100 text-primary mb-5 flex-shrink-0">
                 <svg
                   fill="none"
                   stroke="currentColor"
@@ -173,7 +174,7 @@ export default function About() {
       </section>
 
       <section className="">
-        <div className="container px-5 pb-24 mx-auto">
+        <div className="container px-5 py-24 mx-auto">
           <div className="flex flex-wrap w-full mb-20 flex-col items-center text-center">
             <h1 className="sm:text-3xl text-2xl font-medium  mb-2 text-gray-900">
               Be part of the change
@@ -219,6 +220,7 @@ export default function About() {
           </p>
         </div>
       </section>
+      <Hero/>
     </>
   );
 }
