@@ -17,9 +17,10 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import { useState } from "react";
 import ForgetPass from "./pages/ForgetPass";
+import ProfileEdit from "./pages/PersonalProfile";
 
 function App() {
-  const [Login, setLogin] = useState(true);
+  const [Login, setLogin] = useState(false);
   return (
     <>
       {Login ? (
@@ -33,6 +34,7 @@ function App() {
           <Header />
           <Routes>
             <Route exact path="/" element={<Home />} />
+          <Route exact path="/personal-profile" element={<ProfileEdit />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/calculator" element={<Calculator />} />
             <Route exact path="/contact" element={<Contact />} />
