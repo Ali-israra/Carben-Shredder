@@ -67,6 +67,7 @@ function SignIn() {
                 Sign In
               </button>
             </div>
+            <Link to='/home'><p className="text-indigo-600">click me to go to home page</p></Link>
           </form>
 
           <p class="mt-10 text-center text-sm text-gray-500">

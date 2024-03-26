@@ -39,7 +39,7 @@ function PersonalProfile() {
                 </div>
               </div>
             </div>
-            <div class="col-span-4 sm:col-span-9">
+            <div class="col-span-4 sm:col-span-9"> 
               <div class="bg-white shadow rounded-lg p-6">
                 <h2 class="text-3xl font-bold mb-6">Progress Chart</h2>
                 <ProfileChart />

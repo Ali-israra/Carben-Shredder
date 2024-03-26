@@ -1,4 +1,4 @@
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import Home from "./pages/Home";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -15,12 +15,26 @@ import TrackYourCarbonImpact from "./pages/TrackYourCarbonImpact";
 import PartnershipWithCNaught from "./pages/PartnershipWithCNaught";
 import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import ForgetPass from "./pages/ForgetPass";
 import ProfileEdit from "./pages/PersonalProfile";
 
 function App() {
   const [Login, setLogin] = useState(false);
+  const location = useLocation();
+
+  useEffect(() => {
+    if (
+      location.pathname.includes("/sign-up") ||
+      location.pathname.includes("/forget-pass") ||
+      location.pathname === "/"
+    ) {
+      setLogin(true);
+    } else {
+      setLogin(false);
+    }
+  }, [location.pathname]);
+
   return (
     <>
       {Login ? (
@@ -33,8 +47,8 @@ function App() {
         <div>
           <Header />
           <Routes>
-            <Route exact path="/" element={<Home />} />
-          <Route exact path="/personal-profile" element={<ProfileEdit />} />
+            <Route exact path="/home" element={<Home />} />
+            <Route exact path="/personal-profile" element={<ProfileEdit />} />
             <Route exact path="/about" element={<About />} />
             <Route exact path="/calculator" element={<Calculator />} />
             <Route exact path="/contact" element={<Contact />} />

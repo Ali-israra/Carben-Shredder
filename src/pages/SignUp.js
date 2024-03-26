@@ -133,7 +133,7 @@ function SignUp() {
                 type="submit"
                 class="flex w-full justify-center rounded-md bg-text-primary px-3 py-1.5 text-sm font-semibold leading-6 bg-primary text-white shadow-sm     "
               >
-                Sign in
+                Sign Up
               </button>
             
           </div>

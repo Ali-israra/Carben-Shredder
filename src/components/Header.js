@@ -40,17 +40,17 @@ export default function Header() {
             <img src={menu} alt="" />
           </button>
         </div> */}
-        <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-          <nav className="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+        <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center ">
+          <nav className="flex lg:w-2/5  flex-wrap items-center text-base md:ml-auto px-0">
             <Link
               to="/"
-              className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
+              className="mr-4 text-black text-2xl md:text-[18px] font-medium text-center hover:text-primary hover:underline"
             >
               Home
             </Link>
             <Menu className="relative " as="div">
               <Link to="/how-it-works">
-                <Menu.Button className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline flex flex-row items-center gap-2">
+                <Menu.Button className="mr-4 text-black text-2xl md:text-[18px] font-medium text-center hover:text-primary hover:underline flex flex-row items-center gap-2">
                 <span>
                 How it works
                   
@@ -65,7 +65,7 @@ export default function Header() {
                 <Menu.Item>
                   <Link
                     to="/calculator-works"
-                    className=" text-black text-3xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
+                    className=" text-black text-2xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
                   >
                     How our carbon footprint calculator works
                   </Link>
@@ -73,7 +73,7 @@ export default function Header() {
                 <Menu.Item>
                   <Link
                     to="/subscription-works"
-                    className=" text-black text-3xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
+                    className=" text-black text-2xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
                   >
                   How our carbon subscription works
                   </Link>
@@ -81,7 +81,7 @@ export default function Header() {
                 <Menu.Item>
                   <Link
                     to="/track-your-carbon-impact"
-                    className=" text-black text-3xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
+                    className=" text-black text-2xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
                   >
                   How to track your carbon impact
                   </Link>
@@ -89,7 +89,7 @@ export default function Header() {
                 <Menu.Item>
                   <Link
                     to="/partnership-with-cnaught"
-                    className=" text-black text-3xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
+                    className=" text-black text-2xl md:text-lg font-medium mx-5 my-2 hover:text-primary hover:underline"
                   >
                     How we source carbon offsets: Partnership with CNaught
                   </Link>
@@ -99,15 +99,21 @@ export default function Header() {
 
             <Link
               to="/about"
-              className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
+              className="mr-4 text-black text-2xl md:text-[18px] font-medium text-center hover:text-primary hover:underline"
             >
               Our mission
             </Link>
             <Link
               to="/contact"
-              className="mr-5 text-black text-3xl md:text-xl font-medium text-center hover:text-primary hover:underline"
+              className="mr-4 text-black text-2xl md:text-[18px] font-medium text-center hover:text-primary hover:underline"
             >
               Connect
+            </Link>
+            <Link
+              to="/personal-profile"
+              className="mr-4 text-black text-xl md:text-[18px] font-medium text-center hover:text-primary hover:underline"
+            >
+              Profile
             </Link>
           </nav>
           <Link
@@ -159,7 +165,7 @@ export default function Header() {
             <li onClick={() => setIsOpen(false)}>
               <Link
                 to="/"
-                className="text-black text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
+                className="text-black text-2xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
               >
                 Home
               </Link>
@@ -167,7 +173,7 @@ export default function Header() {
             <li onClick={() => setIsOpen(false)}>
               <Link
                 to="/about"
-                className="text-black text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
+                className="text-black text-2xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
               >
                 About
               </Link>
@@ -175,7 +181,7 @@ export default function Header() {
             <li onClick={() => setIsOpen(false)}>
               {/* <Link
                 to="/contact"
-                className="text-black text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
+                className="text-black text-2xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
               >
                 Calculator
               </Link> */}
@@ -183,7 +189,7 @@ export default function Header() {
             <li onClick={() => setIsOpen(false)}>
               <Link
                 to="/contact"
-                className="text-black text-3xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
+                className="text-black text-2xl md:text-7xl font-extrabold text-center hover:text-primary hover:underline"
               >
                 Connect
               </Link>
